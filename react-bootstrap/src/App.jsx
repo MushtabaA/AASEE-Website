@@ -8,11 +8,14 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Donate from './components/Donate';
 import Navbar from './components/Top_Navbar';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <Router>
-      <div>
+      <div className="page-container">
+        <div class="content-wrap">
+            <Router>
+
         <Navbar/>
         <Route exact path="/" component={Home} />
         <Route exact path="/what_we_do" component={WWD} />
@@ -20,8 +23,11 @@ function App() {
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/donate" component={Donate} />
-      </div>
     </Router>
+    </div>
+    <Footer/>
+    </div>
+
   );
 }
 
