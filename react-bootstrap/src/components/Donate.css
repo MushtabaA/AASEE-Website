@@ -1,5 +1,32 @@
 .title{
     font-family: Righteous;
-    font-style: normal;
+    font-style: bold;
     font-weight: bolder;
+    font-size: 72px;
+}
+
+.Payment1{
+    font-size: 72px;
+    font-style: Righteous;
+    position: relative;
+}
+
+.sub{
+    font-family: Righteous;
+    font-style: bold;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+.subtitle{
+    font-family: Roboto;
+    font-style: bold;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.Payment2{
+    font-size: 72px;
+    font-style: Righteous;
+    background-position-x: center;
 }
