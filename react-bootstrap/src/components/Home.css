@@ -41,3 +41,13 @@
   
     color: #000000;
   }
+
+  .sub {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+    width: 25%;
+    height: auto;
+  }
+  

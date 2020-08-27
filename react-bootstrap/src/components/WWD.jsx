@@ -12,9 +12,9 @@ export default class WWD extends Component {
     <h1>What We Do</h1>
   </Container>  
 </Jumbotron>
-        <img src="/assets/What.jpg" alt=""/>
-        <h1 class="pt-5 container-sm subt font-weight-bold">What We Do:</h1>
-        <p class="pt-3 container-sm subsubt">
+        <img src="/assets/What.jpg" class="sub" alt=""/>
+        <h1 class="pt-5 text-center container-sm title">What We Do:</h1>
+        <p class="pt-3 text-center container-sm subtitle">
           The need for AASEE is clear. Enrollment in science and engineering at
           the higher education level is declining worldwide, and Canada is no
           exception. AASEE is working to find and address the root cause and to
@@ -29,10 +29,10 @@ export default class WWD extends Component {
           advancing science and engineering education is the right way to go,
           and the right thing to do.
         </p>
-        <img src="/assets/Donate.png" alt=""/>
-        <h1>DONATIONS HELP KIDS LOVE TO LEARN</h1>
-          <p>AASEE is a volunteer organization helping children learn to love science and engineering. Every dollar we raise goes towards bringing innovative lessons to young Albertans.</p>
-      <img src="/assets/Donate-now.png" alt=""/>
+        <img src="/assets/Donate.png" class="sub" alt=""/>
+        <h1 class="pt-5 text-center container-sm title">DONATIONS HELP KIDS LOVE TO LEARN</h1>
+          <p class="pt-3 text-center container-sm subtitle">AASEE is a volunteer organization helping children learn to love science and engineering. Every dollar we raise goes towards bringing innovative lessons to young Albertans.</p>
+      <img src="/assets/Donate-now.png" class="sub" alt=""/>
       </div>
     );
   }

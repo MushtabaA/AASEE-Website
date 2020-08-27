@@ -12,3 +12,36 @@
   .jumbotron h1{
       color: red;
   }
+  .title {
+    /* background-color: #ff8282; */
+    /* width: 25%; */
+    /* height: auto; */
+  
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bolder;
+    /* font-size: 48px; */
+  
+    color: #000000;
+  }
+  .subtitle {
+    /* background-color: #ff8282; */
+    /* width: 25%; */
+    /* height: auto; */
+  
+    font-family: Lato;
+    font-style: normal;
+    font-weight: lighter;
+    /* font-size: 48px; */
+  
+    color: #000000;
+  }
+  
+  .sub {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+    width: 25%;
+    height: auto;
+  }

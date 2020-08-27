@@ -1,36 +1,43 @@
-.title{
-    font-family: Righteous;
-    font-style: bold;
+.title {
+    /* background-color: #ff8282; */
+    /* width: 25%; */
+    /* height: auto; */
+  
+    font-family: Quicksand;
+    font-style: normal;
     font-weight: bolder;
-    font-size: 72px;
-    position: relative;
-}
+    /* font-size: 48px; */
+  
+    color: #000000;
+  }
 
 .Payment{
     font-size: 72px;
-    font-style: Righteous;
+    font-style: Quicksand;
     position: relative;
 }
 
-.sub{
-    font-family: Righteous;
-    font-style: bold;
-    font-weight: bolder;
-    font-size: 36px;
-    position: relative;
-}
+.sub {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+    width: 25%;
+    height: auto;
+  }
 
-.subtitle{
-    font-family: Roboto;
-    font-style: bold;
-    font-weight: bolder;
-    font-size: 24px;
-    position: relative;
-}
+.subtitle {
+    /* background-color: #ff8282; */
+    /* width: 25%; */
+    /* height: auto; */
+  
+    font-family: Lato;
+    font-style: normal;
+    font-weight: lighter;
+    /* font-size: 48px; */
+  
+    color: #000000;
+  }
 
-.Under{
-    font-size: 24px;
-    font-style: Righteous;
-    position: relative;
-}
+
 
