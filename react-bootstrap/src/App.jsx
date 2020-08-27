@@ -9,12 +9,15 @@ import Contact from './components/Contact';
 import Donate from './components/Donate';
 import Navbar from './components/Top_Navbar';
 import Footer from './components/Footer';
+import Slider from './components/Slider';
 
 function App() {
   return (
       <div className="page-container">
         <div class="content-wrap">
             <Router>
+                
+            
 
         <Navbar/>
         <Route exact path="/" component={Home} />
@@ -25,8 +28,14 @@ function App() {
         <Route exact path="/donate" component={Donate} />
     </Router>
     </div>
+
     <Footer/>
+    <Slider/>
+
+    
+   
     </div>
+    
 
   );
 }
