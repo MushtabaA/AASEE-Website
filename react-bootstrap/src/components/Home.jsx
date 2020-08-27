@@ -15,9 +15,9 @@ export default class Home extends Component {
   </Container>  
 </Jumbotron>
 <div>
-            <h1 class="Title">The Association for the Advancement of Science and Engineering Education (AASEE) is dedicated to advancing science 
+            <h1 class="pt-5 text-center container-sm title">The Association for the Advancement of Science and Engineering Education (AASEE) is dedicated to advancing science 
 and engineering education at the K-12 level.</h1>
-<h6>The Association for the Advancement of Science and Engineering Education (AASEE) seeks to inspire future science and engineering leaders.
+<h6 class="pt-3 text-center container-sm subtitle">The Association for the Advancement of Science and Engineering Education (AASEE) seeks to inspire future science and engineering leaders.
 
 AASEE gives priority to diverse populations, namely Canada’s first nations peoples, girls, and those in financial need, as well as rural populations. 
 We are mandated to work across the globe, and are implementing an ambitious plan. 
