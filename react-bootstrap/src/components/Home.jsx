@@ -4,6 +4,8 @@ import { Jumbotron, Container, Row, Col, Image, Button } from 'react-bootstrap';
 import Slider from './Slider';
 import './Home.css';
 import Background from './SlideImages/Vector1.jpg';
+import Background2 from './SlideImages/Vector2.jpg';
+
 
 var sectionStyle = {
     width: '100%',
@@ -11,6 +13,11 @@ var sectionStyle = {
     backgroundImage: `url(${Background})`
 }
 
+var sectionStyle2 = {
+    width: '100%',
+    height: "400px",
+    backgroundImage: `url(${Background2})`
+}
 
 
 export default class Home extends Component {
@@ -32,7 +39,7 @@ The lessons the volunteers teach are curriculum-relevant, hands-on activities, w
 
 The Association for the Advancement of Science and Engineering Education is a registered charity in Canada.</h6>
         </div> 
-        <div>
+        <div style={sectionStyle2}>
             <h1 class="pt-5 text-center container-sm title">Awards</h1>
             <img src="/assets/Awards Section.jpg" class="sub" alt=""/>
         </div>
