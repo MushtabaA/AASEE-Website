@@ -26,11 +26,9 @@ function App() {
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/donate" component={Donate} />
     </Router>
-    </div>
-
     <Footer/>
-    
-   
+
+    </div>    
     </div>
     
 
