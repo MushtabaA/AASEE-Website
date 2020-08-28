@@ -24,6 +24,7 @@ The lessons the volunteers teach are curriculum-relevant, hands-on activities, w
 
 The Association for the Advancement of Science and Engineering Education is a registered charity in Canada.</h6>
         </div> 
+        <img src="/assets/Vector1.jpg" class="background"></img>
         <div>
             <h1 class="pt-5 text-center container-sm title">Awards</h1>
             <img src="/assets/Awards Section.jpg" class="sub" alt=""/>
