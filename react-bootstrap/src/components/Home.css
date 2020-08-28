@@ -51,20 +51,3 @@
     height: auto;
   }
   
-  .background{
-    position: absolute;
-width: 688.5px;
-height: 1264.09px;
-left: -139.5px;
-top: 584.5px;
-
-background: rgba(234, 148, 148, 0.22);
-border: 1px solid #FFFFFF;
-   /* Full height */
-   height: 100%; 
-
-   /* Center and scale the image nicely */
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-  }

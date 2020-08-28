@@ -3,7 +3,13 @@ import { Link } from 'react-router-dom';
 import { Jumbotron, Container, Row, Col, Image, Button } from 'react-bootstrap';
 import Slider from './Slider';
 import './Home.css';
+import Background from './SlideImages/Vector1.jpg';
 
+var sectionStyle = {
+    width: '100%',
+    height: "400px",
+    backgroundImage: `url(${Background})`
+}
 
 export default class Home extends Component {
     render() {
@@ -12,7 +18,7 @@ export default class Home extends Component {
              
             <Jumbotron fluid > 
 </Jumbotron>
-<div>
+<div style={sectionStyle}>
             <h1 class="pt-5 text-center container-sm title">The Association for the Advancement of Science and Engineering Education (AASEE) is dedicated to advancing science 
 and engineering education at the K-12 level.</h1>
 <h6 class="pt-3 text-center container-sm subtitle">The Association for the Advancement of Science and Engineering Education (AASEE) seeks to inspire future science and engineering leaders.
@@ -24,7 +30,6 @@ The lessons the volunteers teach are curriculum-relevant, hands-on activities, w
 
 The Association for the Advancement of Science and Engineering Education is a registered charity in Canada.</h6>
         </div> 
-        <img src="/assets/Vector1.jpg" class="background"></img>
         <div>
             <h1 class="pt-5 text-center container-sm title">Awards</h1>
             <img src="/assets/Awards Section.jpg" class="sub" alt=""/>

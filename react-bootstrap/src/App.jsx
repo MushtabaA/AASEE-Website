@@ -10,6 +10,7 @@ import Donate from './components/Donate';
 import Navbar from './components/Top_Navbar';
 import Footer from './components/Footer';
 
+
 function App() {
   return (
       <div className="page-container">
