@@ -1,3 +1,15 @@
+// import React, { Component } from 'react'
+
+// export default class Contact extends Component {
+//     render() {
+//         return (
+//             <div>
+//                 Contact
+//             </div>
+//         )
+//     }
+// }
+
 import React, { Component } from "react";
 import {
   Form,
@@ -12,7 +24,7 @@ import {
   ResponsiveEmbed,
   ResponsiveEmbedProps,
 } from "react-bootstrap";
-import "./Get_in.css";
+import "./Contact.css";
 
 export default class Contact extends Component {
   render() {
