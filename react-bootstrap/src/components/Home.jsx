@@ -10,10 +10,7 @@ export default class Home extends Component {
         return (
             <Fragment>
              
-            <Jumbotron fluid >
-  <Container>
-    <h1>Commited to helping students love science and engineering!</h1>
-  </Container>  
+            <Jumbotron fluid > 
 </Jumbotron>
 <div>
             <h1 class="pt-5 text-center container-sm title">The Association for the Advancement of Science and Engineering Education (AASEE) is dedicated to advancing science 
