@@ -9,7 +9,6 @@ import Contact from './components/Contact';
 import Donate from './components/Donate';
 import Navbar from './components/Top_Navbar';
 import Footer from './components/Footer';
-import Slider from './components/Slider';
 
 function App() {
   return (
@@ -30,8 +29,6 @@ function App() {
     </div>
 
     <Footer/>
-    <Slider/>
-
     
    
     </div>

@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react'
 import { Link } from 'react-router-dom';
 import { Jumbotron, Container, Row, Col, Image, Button } from 'react-bootstrap';
+import Slider from './Slider';
 import './Home.css';
 
 
@@ -33,6 +34,7 @@ The Association for the Advancement of Science and Engineering Education is a re
         <div>
             <h1 class="pt-5 text-center container-sm title">Donors, Partners & Friends</h1>
             <img src="/assets/Capture 1.jpg" alt="" width="1500"/>
+            <Slider/>
         </div>
 
 </Fragment>

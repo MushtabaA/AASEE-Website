@@ -1,5 +1,5 @@
 .main-footer{
-    color: black;
+    color: white;
     background-color: #FF8B8B;
     padding-top: 3em;
     position: relative;
@@ -7,5 +7,5 @@
     width: 100%;
 }
 a{
-    color: black;
+    color: white;
 }
