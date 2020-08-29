@@ -21,11 +21,11 @@ export default class Get_in extends Component {
           <div class="col-md-6">
             <img
               src="/assets/volunteer_header.png"
-              class="mb-3 img-fluid rounded-circle"
+              class="pb-3 img-fluid rounded-circle center d-block mx-auto"
               alt="Volunteer with us"
             />
 
-            <div class="text-wrap mt-3 text-center container-sm">
+            <div class="text-wrap pt-3 text-center container-sm">
               Volunteer with AASEE
             </div>
           </div>
@@ -33,11 +33,11 @@ export default class Get_in extends Component {
           <div class="col-md-6">
             <img
               src="/assets/partner_header.png"
-              class="mb-3 img-fluid rounded-circle"
+              class="pb-3 img-fluid rounded-circle center d-block mx-auto"
               alt="Become Our Partner"
             />
 
-            <div class="text-wrap mt-3 text-center container-sm">
+            <div class="text-wrap pt-3 text-center container-sm">
               Become Our Partner
             </div>
           </div>
