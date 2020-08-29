@@ -17,11 +17,6 @@ const Footer = () => {
                    </ul>
                </div>
                {/* Coulmn2 */}
-               
-               <div class="col">
-        
-               </div>
-               {/* Coulmn3 */}
                <div class = "col">
                    <h5>Content</h5>
                    <ul class="list-unstyled">
@@ -33,7 +28,19 @@ const Footer = () => {
                     <li> <a href="/donate">DONATE</a></li>
                    </ul>
                </div>
-               <hr />
+                {/* Coulmn3 */}
+                <div class = "col">
+                   <h5>Connect With Us</h5>
+                   <ul class="list-unstyled">
+                    <li><a href="/">HOME</a></li>
+                    <li> <a href="/what_we_do">WHAT WE DO</a></li>
+                    <li> <a href="/get_involved">GET INVOLVED</a></li>
+                    <li> <a href="/about">ABOUT</a></li>
+                    <li> <a href="/contact">CONTACT</a></li>
+                    <li> <a href="/donate">DONATE</a></li>
+                   </ul>
+               </div>
+               <hr/>
                 </div>
                 <div class="row">
                 <p class="col-sm">

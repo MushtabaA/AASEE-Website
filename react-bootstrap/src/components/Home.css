@@ -26,8 +26,12 @@
     font-style: normal;
     font-weight: bolder;
     /* font-size: 48px; */
-  
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+align-self:auto;
     color: #000000;
+    line-height: 60px;
   }
   .subtitle {
     /* background-color: #ff8282; */
@@ -49,5 +53,24 @@
   
     width: 25%;
     height: auto;
+    align-self:auto;
+
   }
   
+.center{
+margin-left: auto;
+margin-left: auto;
+align-self: auto;
+}
+
+.sectionStyle{
+  margin-left: auto;
+margin-left: auto;
+align-self: auto;
+}
+
+.sectionStyle2{
+  margin-left: auto;
+margin-left: auto;
+align-self: auto;
+}
