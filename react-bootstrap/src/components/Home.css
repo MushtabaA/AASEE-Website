@@ -1,53 +1,76 @@
 .jumbotron{
-    background-image: url("https://www.mastersindatascience.org/wp-content/uploads/STEM-Guide-for-kids-hero-2-1024x467.jpg");
-    background-repeat: no-repeat, repeat;
-    background-position: center; /* Center the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
-    padding-top: 50px;
-    font-weight: bold;
-    margin-bottom: 100px;
-    padding: 100px;
-    border-radius: 50px;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  }
-  .jumbotron h1{
-      color: red;
-  }
-  body{
-      background-color: white;
-  }
- 
-  .title {
-    /* background-color: #ff8282; */
-    /* width: 25%; */
-    /* height: auto; */
-  
-    font-family: Quicksand;
-    font-style: normal;
-    font-weight: bolder;
-    /* font-size: 48px; */
-  
-    color: #000000;
-  }
-  .subtitle {
-    /* background-color: #ff8282; */
-    /* width: 25%; */
-    /* height: auto; */
-  
-    font-family: Lato;
-    font-style: normal;
-    font-weight: lighter;
-    /* font-size: 48px; */
-  
-    color: #000000;
-  }
+  background-image: url("https://www.mastersindatascience.org/wp-content/uploads/STEM-Guide-for-kids-hero-2-1024x467.jpg");
+  background-repeat: no-repeat, repeat;
+  background-position: center; /* Center the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  padding-top: 50px;
+  font-weight: bold;
+  margin-bottom: 100px;
+  padding: 100px;
+  border-radius: 50px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.jumbotron h1{
+    color: red;
+}
+body{
+    background-color: white;
+}
 
-  .sub {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  
-    width: 25%;
-    height: auto;
-  }
-  
+.title {
+  /* background-color: #ff8282; */
+  /* width: 25%; */
+  /* height: auto; */
+
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bolder;
+  /* font-size: 48px; */
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+align-self:auto;
+  color: #000000;
+  line-height: 60px;
+}
+.subtitle {
+  /* background-color: #ff8282; */
+  /* width: 25%; */
+  /* height: auto; */
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: lighter;
+  /* font-size: 48px; */
+
+  color: #000000;
+}
+
+.sub {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 25%;
+  height: auto;
+  align-self:auto;
+
+}
+
+.center{
+margin-left: auto;
+margin-left: auto;
+align-self: auto;
+}
+
+.sectionStyle{
+margin-left: auto;
+margin-left: auto;
+align-self: auto;
+}
+
+.sectionStyle2{
+margin-left: auto;
+margin-left: auto;
+align-self: auto;
+}
