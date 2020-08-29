@@ -39,6 +39,7 @@ The Association for the Advancement of Science and Engineering Education is a re
         <div style={sectionStyle2}>
             <h1 class="pt-5 text-center container-sm title">Awards</h1>
             <img src="/assets/Awards Section.jpg" class="sub" alt=""/>
+            <a href="/news"><p class="pt-3 text-center container-sm subtitle">---Continue Reading---</p></a> 
         </div>
         <div>
             <h1 class="pt-5 text-center container-sm title">Donors, Partners & Friends</h1>
