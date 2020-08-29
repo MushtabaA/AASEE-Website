@@ -19,8 +19,7 @@ const Footer = () => {
                {/* Coulmn2 */}
                
                <div class="col">
-                   <h4>The students were thoroughly engaged as they designed, constructed and tested their structures.
-                                                                         -Teacher</h4>
+        
                </div>
                {/* Coulmn3 */}
                <div class = "col">

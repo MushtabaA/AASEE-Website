@@ -29,10 +29,11 @@ return(
             key={index} 
             className="slide"
             style={{transform: `translate(${x}px`}}>
-                {item}
+                {item}  
             </div>
         );
     })}
+ 
 <button id="goLeft"  onClick={goLeft}>
 <i class="fas fa-chevron-left"></i>
 </button>
@@ -45,3 +46,4 @@ return(
 
 
 export default Slider;
+
