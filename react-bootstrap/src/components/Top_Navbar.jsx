@@ -13,13 +13,13 @@ export default class Top_Navbar extends Component {
                 <Nav.Link eventKey={1} componentClass={Link} href="/" to="/">HOME</Nav.Link>
                 <Nav.Link class="wwd" eventKey={2} componentClass={Link} href="/what_we_do" to="/what_we_do">WHAT WE DO</Nav.Link>
                 <Dropdown as={ButtonGroup}>
-                      <Button variant="dropdown-toggle" href="/about">GET INVOLVED</Button>
+                      <Button variant="dropdown-toggle" href="/get_involved">GET INVOLVED</Button>
 
                     <Dropdown.Toggle split variant="dropdown-toggle" id="dropdown-split-basic"/>
 
                       <Dropdown.Menu>
-                            <Dropdown.Item eventKey={5} componentClass={Link} href="/get_involved" to="/get_involved">Be a Volunteer</Dropdown.Item>
-                            <Dropdown.Item eventKey={6} componentClass={Link} href="/get_involved" to="/get_involved">Be our Partner</Dropdown.Item>
+                            <Dropdown.Item eventKey={3} componentClass={Link} href="/get_involved" to="/get_involved">Be a Volunteer</Dropdown.Item>
+                            <Dropdown.Item eventKey={4} componentClass={Link} href="/get_involved" to="/get_involved">Be our Partner</Dropdown.Item>
                       </Dropdown.Menu>
               </Dropdown>
             
@@ -37,13 +37,13 @@ export default class Top_Navbar extends Component {
                     <Dropdown.Toggle split variant="dropdown-toggle" id="dropdown-split-basic"/>
 
                       <Dropdown.Menu>
-                            <Dropdown.Item eventKey={4} componentClass={Link} href="/news" to="/news">News</Dropdown.Item>
-                            <Dropdown.Item eventKey={5} componentClass={Link} href="/volunteers" to="/volunteers">Volunteers</Dropdown.Item>
-                            <Dropdown.Item eventKey={6} componentClass={Link} href="/BOD" to="/BOD">Board of Directors</Dropdown.Item>
+                            <Dropdown.Item eventKey={5} componentClass={Link} href="/news" to="/news">News</Dropdown.Item>
+                            <Dropdown.Item eventKey={6} componentClass={Link} href="/volunteers" to="/volunteers">Volunteers</Dropdown.Item>
+                            <Dropdown.Item eventKey={7} componentClass={Link} href="/BOD" to="/BOD">Board of Directors</Dropdown.Item>
                       </Dropdown.Menu>
               </Dropdown>
-                <Nav.Link eventKey={7} componentClass={Link} href="/contact" to="/contact">CONTACT</Nav.Link>
-                <Nav.Link eventKey={8} componentClass={Link} href="/donate" to="/donate">DONATE</Nav.Link>
+                <Nav.Link eventKey={8} componentClass={Link} href="/contact" to="/contact">CONTACT</Nav.Link>
+                <Nav.Link eventKey={9} componentClass={Link} href="/donate" to="/donate">DONATE</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
