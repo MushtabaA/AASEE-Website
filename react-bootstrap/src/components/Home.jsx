@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react'
 import { Link } from 'react-router-dom';
-import { Jumbotron, Container, Row, Col, Image, Button } from 'react-bootstrap';
+import { Jumbotron, Container, Row, Col, Image, Button, Carousel } from 'react-bootstrap';
 import Slider from './Slider';
 import './Home.css';
 import Background from './SlideImages/Vector1.jpg';

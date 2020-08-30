@@ -11,5 +11,6 @@ a{
 }
 
 .fa{
-    color: blue;
+    padding-top: 0.5em;
+    position: relative;
 }
