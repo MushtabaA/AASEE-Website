@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Navbar, Nav, NavItem, NavDropdown } from 'react-bootstrap';
+import { Navbar, Nav, NavItem, NavDropdown, Dropdown, SplitButton, MenuItem, Button, ButtonGroup, NavLink } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Top_Navbar.css'
 
@@ -20,9 +20,19 @@ export default class Top_Navbar extends Component {
                       </Navbar.Brand>
              <Navbar.Collapse id="responsive-navbar-nav">
               <Nav>
-                <Nav.Link eventKey={4} componentClass={Link} href="/about" to="/about">ABOUT</Nav.Link>
-                <Nav.Link eventKey={5} componentClass={Link} href="/contact" to="/contact">CONTACT</Nav.Link>
-                <Nav.Link eventKey={6} componentClass={Link} href="/donate" to="/donate">DONATE</Nav.Link>
+              <Dropdown as={ButtonGroup}>
+                      <Button variant="dropdown-toggle" href="/about">ABOUT</Button>
+
+                    <Dropdown.Toggle split variant="dropdown-toggle" id="dropdown-split-basic"/>
+
+                      <Dropdown.Menu>
+                            <Dropdown.Item eventKey={4} componentClass={Link} href="/news" to="/news">News</Dropdown.Item>
+                            <Dropdown.Item eventKey={5} componentClass={Link} href="/volunteers" to="/volunteers">Volunteers</Dropdown.Item>
+                            <Dropdown.Item eventKey={6} componentClass={Link} href="/BOD" to="/BOD">Board of Directors</Dropdown.Item>
+                      </Dropdown.Menu>
+              </Dropdown>
+                <Nav.Link eventKey={7} componentClass={Link} href="/contact" to="/contact">CONTACT</Nav.Link>
+                <Nav.Link eventKey={8} componentClass={Link} href="/donate" to="/donate">DONATE</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>

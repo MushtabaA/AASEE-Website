@@ -14,7 +14,22 @@
     background-color: #FF8B8B;
 
 }
-
+.dropdown{
+    margin-right: 50px;
+}
+.btn-dropdown-toggle {
+    background-color:  #FF8B8B;
+    color: white;
+    font-weight: bold;
+  }
+.dropdown-menu{
+    background-color: #FF8B8B;
+}
+.dropdown-item{
+    background-color: #FF8B8B;
+    color: white;
+    font-weight: bold;
+}
 .navbar-custom {
     background-color: #FF8B8B;
 }

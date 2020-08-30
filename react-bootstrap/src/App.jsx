@@ -9,6 +9,10 @@ import Contact from './components/Contact';
 import Donate from './components/Donate';
 import Navbar from './components/Top_Navbar';
 import Footer from './components/Footer';
+import News from './components/News';
+import Volunteers from './components/Volunteers';
+import BOD from './components/BOD';
+
 
 function App() {
   return (
@@ -25,6 +29,9 @@ function App() {
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/donate" component={Donate} />
+        <Route exact path="/news" component={News} />
+        <Route exact path="/volunteers" component={Volunteers} />
+        <Route exact path="/BOD" component={BOD} />
         <Footer/>
     </Router>
     </div>
