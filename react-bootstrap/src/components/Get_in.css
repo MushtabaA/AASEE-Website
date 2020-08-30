@@ -57,3 +57,17 @@ body {
 .lisub {
   font-family: Quicksand;
 }
+/* 
+#explore-section, #share-section{
+  .fa{
+    color:#fff;
+    background:#333;
+    padding:4px;
+    border-radius: 5px;
+    font-size:$icon-size;
+  }
+} */
+
+.backg {
+  background-color: #ffb8b8;
+}
