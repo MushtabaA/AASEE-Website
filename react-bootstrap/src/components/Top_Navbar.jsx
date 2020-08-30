@@ -12,7 +12,18 @@ export default class Top_Navbar extends Component {
               <Nav className="mr-auto">
                 <Nav.Link eventKey={1} componentClass={Link} href="/" to="/">HOME</Nav.Link>
                 <Nav.Link class="wwd" eventKey={2} componentClass={Link} href="/what_we_do" to="/what_we_do">WHAT WE DO</Nav.Link>
-                <Nav.Link eventKey={3} componentClass={Link} href="/get_involved" to="/get_involved">GET INVOLVED</Nav.Link>
+                <Dropdown as={ButtonGroup}>
+                      <Button variant="dropdown-toggle" href="/about">GET INVOLVED</Button>
+
+                    <Dropdown.Toggle split variant="dropdown-toggle" id="dropdown-split-basic"/>
+
+                      <Dropdown.Menu>
+                            <Dropdown.Item eventKey={5} componentClass={Link} href="/get_involved" to="/get_involved">Be a Volunteer</Dropdown.Item>
+                            <Dropdown.Item eventKey={6} componentClass={Link} href="/get_involved" to="/get_involved">Be our Partner</Dropdown.Item>
+                      </Dropdown.Menu>
+              </Dropdown>
+            
+            
               </Nav>
               </Navbar.Collapse>
                       <Navbar.Brand href="/" to="/">
