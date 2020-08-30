@@ -6,6 +6,7 @@ export default class Get_in extends Component {
   render() {
     return (
       <div>
+        {/* Get Involved Header Section */}
         <div className="head">
           <img
             src="/assets/get_involved_header.png"
@@ -44,6 +45,42 @@ export default class Get_in extends Component {
             </div>
           </div>
         </div>
+
+        {/* Volunteer with AASEE Section */}
+        <div className="mt-5 pt-5 mb-5 pb-5"></div>
+        <div className="beAVolunteer">
+          <div>
+            <img
+              src="/assets/volunteer_header.png"
+              class="header"
+              alt="volunteer"
+            />
+
+            <h1 class="pt-5 text-center container-sm title">Be A Volunteer</h1>
+            <h5 class="pt-3 mb-5 text-center container-sm subtitle">
+              At AASEE we value you as a volunteer
+            </h5>
+          </div>
+        </div>
+
+        {/* Become Our Partner Section */}
+        <div className="mt-5 pt-5 mb-5 pb-5"></div>
+        <div className="beOurPartner">
+          <div>
+            <img
+              src="/assets/partner_header.png"
+              class="header"
+              alt="partner"
+            />
+
+            <h1 class="pt-5 text-center container-sm title">Be Our Parnter</h1>
+            <h5 class="pt-3 mb-5 text-center container-sm subtitle">
+              There are many ways for you to partner with AASEE
+            </h5>
+          </div>
+        </div>
+
+        {/* Final Div Ending   */}
       </div>
     );
   }
