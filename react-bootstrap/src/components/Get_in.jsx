@@ -13,33 +13,33 @@ export default class Get_in extends Component {
         />
 
         <h1 class="pt-5 text-center container-sm title">Get Involved</h1>
-        <h5 class="pt-3 pb-5 text-center container-sm subtitle">
+        <h5 class="pt-3 mb-5 text-center container-sm subtitle">
           There are many ways to get involved with the AASEE
         </h5>
 
-        <div class="row pt-5">
-          <div class="col-md-6">
+        <div class="row pt-5 mt-5">
+          <div class="col-md-6 mt-5">
             <img
               src="/assets/volunteer_header.png"
               class="pb-3 img-fluid rounded-circle center d-block mx-auto"
               alt="Volunteer with us"
             />
 
-            <div class="text-wrap pt-3 text-center container-sm">
+            <h3 class="font-weight-bold text-wrap pt-5 mt-1 text-center container-sm lisub">
               Volunteer with AASEE
-            </div>
+            </h3>
           </div>
 
-          <div class="col-md-6">
+          <div class="col-md-6 mt-5">
             <img
               src="/assets/partner_header.png"
               class="pb-3 img-fluid rounded-circle center d-block mx-auto"
               alt="Become Our Partner"
             />
 
-            <div class="text-wrap pt-3 text-center container-sm">
+            <h3 class="font-weight-bold text-wrap pt-4 mt-3 text-center container-sm lisub">
               Become Our Partner
-            </div>
+            </h3>
           </div>
         </div>
       </div>
