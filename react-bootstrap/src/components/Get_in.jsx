@@ -66,7 +66,7 @@ export default class Get_in extends Component {
         {/* Become Our Partner Section */}
         <div className="mt-5 pt-5 mb-5 pb-5"></div>
         <div className="beOurPartner">
-          <div>
+          <div className="BeOurPartnerHeader">
             <img
               src="/assets/partner_header.png"
               class="header"
@@ -78,6 +78,53 @@ export default class Get_in extends Component {
               There are many ways for you to partner with AASEE
             </h5>
           </div>
+
+          <section
+            id="strategic-partner-section"
+            className="backg text-muted py-5"
+          >
+            <div className="container">
+              <div className="row">
+                <div className="col-md-6">
+                  <h5>Strategic Partner</h5>
+                  <p>
+                    If you believe in AASEE’s vision, mission and strategy, you
+                    can join us and contribute to AASEE. There are many ways for
+                    your to be part of our work
+                  </p>
+                </div>
+                <div className="col-md-6">
+                  <img
+                    src="/assets/partner_header.png"
+                    alt="Strategic Partner"
+                    className="img-fluid mb-3"
+                  />
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="strategic-partner-section" className="text-muted py-5">
+            <div className="container">
+              <div className="row">
+                <div className="col-md-6">
+                  <img
+                    src="/assets/partner_header.png"
+                    alt="Strategic Partner"
+                    className="img-fluid mb-3"
+                  />
+                </div>
+                <div className="col-md-6">
+                  <h5>Strategic Partner</h5>
+                  <p>
+                    If you believe in AASEE’s vision, mission and strategy, you
+                    can join us and contribute to AASEE. There are many ways for
+                    your to be part of our work
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
 
         {/* Final Div Ending   */}
