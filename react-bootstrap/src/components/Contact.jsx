@@ -52,7 +52,6 @@ export default class Contact extends Component {
         </h4>
 
         <h3 className="text-center mt-5 mb-3 font-weight-bold">Contact Us</h3>
-
         <Form>
           <Row>
             <Col>
@@ -97,5 +96,6 @@ export default class Contact extends Component {
         </Form>
       </div>
     );
+    
   }
 }
