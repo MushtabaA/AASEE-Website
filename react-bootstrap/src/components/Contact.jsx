@@ -29,7 +29,7 @@ import "./Contact.css";
 export default class Contact extends Component {
   render() {
     return (
-      <div>
+      <div className="w-75 mx-auto d-block">
         <h1 className="text-center mt-5 mb-3 font-weight-bold">Contact</h1>
         <h4 className="text-center mt-5 mb-3 font-weight-bold w-25">
           Office Location
