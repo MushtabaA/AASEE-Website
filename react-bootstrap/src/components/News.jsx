@@ -6,8 +6,12 @@ export default class News extends Component {
     render() {
         return (
             <div>
-                NEWS
-            </div>
+                <img src="/assets/news_header.png" class = "header" alt="news_header.png"/>
+                <img src="/assets/global.png" class = "global p-4" alt="global.png"/>
+
+             <hr class = "lines"/> 
+            <div></div>
+           </div>
         )
     }
 }
