@@ -15,10 +15,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .container.grid-xl {
     max-width: 1296px;
 }
-.piccontainer {
-    position: relative;
-    width: 100%;
-}
 .mt-full {
     margin-top: 6.4rem;
 }
@@ -61,6 +57,7 @@ img {
 .pics + .pics {
     margin-top: 3.2rem;
 }
+*/
 .btnlink {
     font-size: 1.4rem;
     border-radius: 10rem;
@@ -99,9 +96,14 @@ img {
     font-weight: 500;
     text-decoration-color: #FF8B8B;
 }
+
 .centered {
-    text-align: center;
-}*/
+   text-align: center;
+}
+.piccontainer {
+    position: relative;
+    width: 100%;
+}
 .overlay {
   position: absolute;
   top: 0;
@@ -133,7 +135,7 @@ br {
   text-align: center;
 }
 
-img {
+.img-L {
   width: 100%;
   display: block;
   height: auto;
