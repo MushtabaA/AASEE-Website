@@ -20,12 +20,12 @@ export default class Volunteers extends Component {
                         <div className="column col-md-6 col-3 px-1 mt-md-qtr"><div className="piccontainer"><img class="img-fluid" src="/assets/v5.png" alt="volun5"/><div class="overlay"><div class="text">Mandeep Pandey</div></div></div></div>
                         <div className="column col-md-6 col-3 px-1 mt-md-qtr"><div className="piccontainer"><img class="img-fluid" src="/assets/v6.jpg" alt="volun6"/><div class="overlay"><div class="text">Ahmad Awan <br/> Book Store Lead</div></div></div></div>
                         <div className="column col-md-6 col-3 px-1 mt-md-qtr"><div className="piccontainer"><img class="img-fluid" src="/assets/v7.jpg" alt="volun7"/><div class="overlay"><div class="text">Sienna McPherson</div></div></div></div>
-                        <div className="column col-md-6 col-3 px-1 mt-md-qtr"><div className="piccontainer"><img class="img-fluid" src="/assets/v8.jpg" alt="volun8"/><div class="overlay"><div class="text">Alden Lien <br/> Program Pep Member <br/> Book Store Member</div></div></div></div>
+                        <div className="column col-md-6 col-3 px-1 mt-md-qtr"><div className="piccontainer"><img class="img-fluid" src="/assets/v8.jpg" alt="volun8"/><div class="overlay"><div class="text">Anis Haque <br/> Fund Raising Lead</div></div></div></div>
                     </div>
                     <div class="columns pics">
                         <div className="column col-md-6 col-3 px-1 mt-md-qtr"><div className="piccontainer"><img class="img-fluid" src="/assets/vn.jpg" alt="volun9"/><div class="overlay"><div class="text">Nicolas Vuong <br/> Office Lead <br/> Program Prep Member</div></div></div></div>
                         <div className="column col-md-6 col-3 px-1 mt-md-qtr"><div className="piccontainer"><img class="img-fluid" src="/assets/vn.jpg" alt="volun10"/><div class="overlay"><div class="text">Nicolas Teng <br/> Program Prep Member <br/> Book Store Member</div></div></div></div>
-                        <div className="column col-md-6 col-3 px-1 mt-md-qtr"><div className="piccontainer"><img class="img-fluid" src="/assets/vn.jpg" alt="volun11"/><div class="overlay"><div class="text">Anis Haque <br/> Fund Raising Lead</div></div></div></div>
+                        <div className="column col-md-6 col-3 px-1 mt-md-qtr"><div className="piccontainer"><img class="img-fluid" src="/assets/vn.jpg" alt="volun11"/><div class="overlay"><div class="text">Alden Lien <br/> Program Pep Member <br/> Book Store Member</div></div></div></div>
                         <div className="column col-md-6 col-3 px-1 mt-md-qtr"><div className="piccontainer"><img class="img-fluid" src="/assets/vn.jpg" alt="volun12"/><div class="overlay"><div class="text">Helen Zhang <br/> Book Store Member</div></div></div></div>
                     </div>
                     <div class="columns pics">
