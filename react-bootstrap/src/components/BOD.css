@@ -6,4 +6,21 @@
 }
 .container {
     margin-bottom: 10rem;
+    margin-right: 5rem;
+    margin-left: auto;
+}
+.row {
+    margin-top: 5rem;
+}
+.col-md-3 {
+    margin-right: 17rem;
+    margin-top: 2rem;
+}
+.card-title {
+    font-weight: bold;
+}
+.card-header {
+    background-color:  #FF8B8B;
+    color: white !important;
+    text-decoration-color: white;
 }
