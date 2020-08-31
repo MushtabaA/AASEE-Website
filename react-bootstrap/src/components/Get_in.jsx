@@ -21,11 +21,13 @@ export default class Get_in extends Component {
 
           <div class="row pt-5 mt-5">
             <div class="col-md-6 mt-5 pl-5">
-              <img
-                src="/assets/volunteer_header.png"
-                class="pb-3 img-fluid rounded-circle center d-block mx-auto"
-                alt="Volunteer with us"
-              />
+              <a href="#Volunteer">
+                <img
+                  src="/assets/volunteer_header.png"
+                  class="pb-3 img-fluid rounded-circle center d-block mx-auto"
+                  alt="Volunteer with us"
+                />
+              </a>
 
               <h3 class="font-weight-bold text-wrap pt-5 mt-1 text-center container-sm lisub">
                 Volunteer with AASEE
@@ -33,11 +35,13 @@ export default class Get_in extends Component {
             </div>
 
             <div class="col-md-6 mt-5 pr-5">
-              <img
-                src="/assets/partner_header.png"
-                class="pb-3 img-fluid rounded-circle center d-block mx-auto"
-                alt="Become Our Partner"
-              />
+              <a href="#Partner">
+                <img
+                  src="/assets/partner_header.png"
+                  class="pb-3 img-fluid rounded-circle center d-block mx-auto"
+                  alt="Become Our Partner"
+                />
+              </a>
 
               <h3 class="font-weight-bold text-wrap pt-4 mt-3 text-center container-sm lisub">
                 Become Our Partner
@@ -48,7 +52,8 @@ export default class Get_in extends Component {
 
         {/* Volunteer with AASEE Section */}
         <div className="mt-5 pt-5 mb-5 pb-5"></div>
-        <div className="beAVolunteer">
+
+        <div className="beAVolunteer" id="Volunteer">
           <div>
             <img
               src="/assets/volunteer_header.png"
@@ -207,7 +212,7 @@ export default class Get_in extends Component {
 
         {/* Become Our Partner Section */}
         <div className="mt-5 pt-5 mb-5 pb-5"></div>
-        <div className="beOurPartner">
+        <div className="beOurPartner" id="Partner">
           <div className="BeOurPartnerHeader">
             <img
               src="/assets/partner_header.png"
