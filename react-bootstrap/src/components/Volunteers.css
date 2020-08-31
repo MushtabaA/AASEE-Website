@@ -15,6 +15,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .container.grid-xl {
     max-width: 1296px;
 }
+.piccontainer {
+    position: relative;
+    width: 100%;
+}
 .mt-full {
     margin-top: 6.4rem;
 }
@@ -33,6 +37,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     flex-shrink: 0;
     flex-basis: auto;
 }
+.col-md-6 {
+    width: 50%;
+}
 .col-3 {
     width: 25%;
 }
@@ -49,6 +56,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 img {
     width: 100%;
     display: block;
+    height: auto;
 }
 .pics + .pics {
     margin-top: 3.2rem;
@@ -94,3 +102,33 @@ img {
 .centered {
     text-align: center;
 }
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #FF8B8B;
+  }
+  .piccontainer:hover .overlay {
+    opacity: 70%;
+  }
+  br {
+      line-height: 150%;
+  }
+  .text {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
