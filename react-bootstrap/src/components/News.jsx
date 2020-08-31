@@ -10,7 +10,16 @@ export default class News extends Component {
                 <img src="/assets/global.png" class = "global p-4" alt="global.png"/>
 
              <hr class = "lines"/> 
-            <div></div>
+            <div className="NewsHeader">
+                <h1 class="pt-1 ml-2 text-left container-sm title">AASEE on the Road</h1>
+                <h5 class="pt-0 ml-2 mb-0 text-left container-sm subtitle">
+            FEB 15 2017
+                </h5>
+                <h5 class="pt-0 ml-2 text-left container-sm subtitle">
+            kevinbrennan
+                </h5>
+
+            </div>
            </div>
         )
     }
