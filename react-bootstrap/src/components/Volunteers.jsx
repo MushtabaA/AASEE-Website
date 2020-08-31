@@ -9,66 +9,59 @@ export default class Volunteers extends Component {
         <div className="headTitle">
           <h1 class="pt-5 pb-5 text-center container-sm title">Volunteers</h1>
         </div>
+        <div className="vector1">
+          <img src="/assets/vector1.png" alt="vector1" />
+        </div>
+        <div className="vector2">
+          <img src="/assets/vector2.png" alt="vector2" />
+        </div>
         <div className="container pt-3">
           <div className="row">
             <div className="col-md-3 mb-5">
-              <img class="img-fluid img-L" src="/assets/v1.jpg" alt="volun1" />
+            <div class="piccontainer"><img class="img-fluid img-L" src="/assets/v1.jpg" alt="volun1" /><div class="overlay"><div class="text">Priyanka Gautam, <br/> Lead Media Relations, <br/> Fund Raising Member</div></div></div>
             </div>
             <div className="col-md-3 mb-5">
-              <img class="img-fluid img-L" src="/assets/v2.jpg" alt="volun2" />
-            </div>
+            <div class="piccontainer"><img class="img-fluid img-L" src="/assets/v2.jpg" alt="volun2" /><div class="overlay"><div class="text">Andrea Aguirre, <br/> Program Prep Lead, <br/> Office Member</div></div></div>            </div>
             <div className="col-md-3 mb-5">
-              <img class="img-fluid img-L" src="/assets/v3.jpg" alt="volun3" />
-            </div>
+            <div class="piccontainer"><img class="img-fluid img-L" src="/assets/v3.jpg" alt="volun3" /><div class="overlay"><div class="text">Rigel Tormon, <br/> Fund Raising Member</div></div></div>            </div>
             <div className="col-md-3 mb-5">
-              <img class="img-fluid img-L" src="/assets/v4.jpeg" alt="volun4" />
-            </div>
+            <div class="piccontainer"><img class="img-fluid img-L" src="/assets/v4.jpeg" alt="volun4" /><div class="overlay"><div class="text">Whitney Ebose, <br/> Book Store Member</div></div></div>            </div>
           </div>
         </div>
 
         <div className="container">
           <div className="row">
             <div className="col-md-3 mb-5">
-              <img class="img-fluid img-L" src="/assets/v5.png" alt="volun5" />
-            </div>
+            <div class="piccontainer"><img class="img-fluid img-L" src="/assets/v5.png" alt="volun5" /><div class="overlay"><div class="text">Mandeep Pandey</div></div></div>            </div>
             <div className="col-md-3 mb-5">
-              <img class="img-fluid img-L" src="/assets/v6.jpg" alt="volun6" />
-            </div>
+            <div class="piccontainer"><img class="img-fluid img-L" src="/assets/v6.jpg" alt="volun6" /><div class="overlay"><div class="text">Ahmad Awan, <br/> Book Store Lead</div></div></div>            </div>
             <div className="col-md-3 mb-5">
-              <img class="img-fluid img-L" src="/assets/v7.jpg" alt="volun7" />
-            </div>
+            <div class="piccontainer"><img class="img-fluid img-L" src="/assets/v7.jpg" alt="volun7" /><div class="overlay"><div class="text">Sienna Prince-McPherson</div></div></div>            </div>
             <div className="col-md-3 mb-5">
-              <img class="img-fluid img-L" src="/assets/v8.jpg" alt="volun8" />
-            </div>
+            <div class="piccontainer"><img class="img-fluid img-L" src="/assets/v8.jpg" alt="volun8" /><div class="overlay"><div class="text">Anis Haque, <br/> Fund Raising Lead</div></div></div>            </div>
           </div>
         </div>
 
         <div className="container">
           <div className="row">
             <div className="col-md-3 mb-5">
-              <img class="img-fluid img-L" src="/assets/vn.jpg" alt="volun9" />
-            </div>
+            <div class="piccontainer"><img class="img-fluid img-L" src="/assets/vn.jpg" alt="volun9" /><div class="overlay"><div class="text">Alden Lien, <br/> Program Prep Member, <br/> Book Store Member</div></div></div>            </div>
             <div className="col-md-3 mb-5">
-              <img class="img-fluid img-L" src="/assets/vn.jpg" alt="volun10" />
-            </div>
+            <div class="piccontainer"><img class="img-fluid img-L" src="/assets/vn.jpg" alt="volun10" /><div class="overlay"><div class="text">Nicolas Vuong, <br/> Office Lead, <br/> Program Prep Member</div></div></div>            </div>
             <div className="col-md-3 mb-5">
-              <img class="img-fluid img-L" src="/assets/vn.jpg" alt="volun11" />
-            </div>
+            <div class="piccontainer"><img class="img-fluid img-L" src="/assets/vn.jpg" alt="volun11" /><div class="overlay"><div class="text">Nicolas Teng, <br/> Program Prep Member, <br/> Book Store Member</div></div></div>            </div>
             <div className="col-md-3 mb-5">
-              <img class="img-fluid img-L" src="/assets/vn.jpg" alt="volun12" />
-            </div>
+            <div class="piccontainer"><img class="img-fluid img-L" src="/assets/vn.jpg" alt="volun12" /><div class="overlay"><div class="text">Helen Zhang, <br/> Book Store Member</div></div></div>            </div>
           </div>
         </div>
 
         <div className="container">
-          <div className="row">
+          <div className="row pb-5">
             <div className="col-md-3 mb-5"></div>
             <div className="col-md-3 mb-5">
-              <img class="img-fluid img-L" src="/assets/vn.jpg" alt="volun13" />
-            </div>
+            <div class="piccontainer"><img class="img-fluid img-L" src="/assets/vn.jpg" alt="volun13" /><div class="overlay"><div class="text">Mohammad Usman Khan, <br/> School Liaison Member</div></div></div>            </div>
             <div className="col-md-3 mb-5">
-              <img class="img-fluid img-L" src="/assets/vn.jpg" alt="volun14" />
-            </div>
+            <div class="piccontainer"><img class="img-fluid img-L" src="/assets/vn.jpg" alt="volun14" /><div class="overlay"><div class="text">Farin Tabassum, <br/> School Liaison Lead</div></div></div>            </div>
             <div className="col-md-3 mb-5"></div>
           </div>
         </div>
@@ -86,5 +79,7 @@ export default class Volunteers extends Component {
     );
   }
 }
+
+
 
 
