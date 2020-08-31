@@ -39,5 +39,18 @@
     color: #000000;
   }
 
+  .jumbotron{
+    background-repeat: no-repeat, repeat;
+    background-position: center; /* Center the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    padding-top: 50px;
+    font-weight: bold;
+    margin-bottom: 100px;
+    padding: 100px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  }
+  
+
 
 
