@@ -90,12 +90,13 @@ export default class Contact extends Component {
             <Form.Label>Message</Form.Label>
             <Form.Control as="textarea" rows="3" />
           </Form.Group>
-          <Button variant="primary" type="submit">
-            SEND MESSAGE
-          </Button>
+          <div className="mt-3 mb-5">
+            <Button variant="primary" type="submit">
+              SEND MESSAGE
+            </Button>
+          </div>
         </Form>
       </div>
     );
-    
   }
 }
