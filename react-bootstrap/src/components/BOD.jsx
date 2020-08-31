@@ -30,7 +30,7 @@ export default class BOD extends Component {
         </div>
         <div className="container">
           <div className="row mr-3">
-            <div className="col-md-3">
+            <div className="col-md-3-L col-md-3">
               <Card style={{ width: "25rem", height: "auto" }}>
                 <Card.Img
                   class="img-fluid"
@@ -74,7 +74,7 @@ export default class BOD extends Component {
                 </Card.Body>
               </Card>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3-L col-md-3">
               <Card style={{ width: "25rem", height: "auto" }}>
                 <Card.Img
                   class="img-fluid"
@@ -128,7 +128,7 @@ export default class BOD extends Component {
             </div>
           </div>
           <div className="row">
-            <div className="col-md-3">
+            <div className="col-md-3-L col-md-3">
               <Card style={{ width: "25rem", height: "auto" }}>
                 <Card.Img
                   class="img-fluid"
@@ -180,7 +180,7 @@ export default class BOD extends Component {
                 </Card.Body>
               </Card>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3-L col-md-3">
               <Card style={{ width: "25rem", height: "auto" }}>
                 <Card.Img
                   class="img-fluid"
