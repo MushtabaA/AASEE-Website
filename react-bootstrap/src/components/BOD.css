@@ -37,3 +37,8 @@
   right: 0;
   top: 290px;
 }
+.img-L {
+  width: 100%;
+  display: block;
+  height: auto;
+}
