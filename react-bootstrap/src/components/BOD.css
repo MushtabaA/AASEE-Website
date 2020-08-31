@@ -1,28 +1,30 @@
-.title {
-    font-family: Quicksand;
-    font-weight: bold;
-    font-size: 55px;
-    line-height: 62px;
+/* .title {
+  font-family: Quicksand;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 62px;
 }
 .containerBOD {
-    margin-bottom: 10rem;
-    margin-right: 5rem;
-    margin-left: 15rem;
+  margin-bottom: 10rem;
+  margin-right: 5rem;
+  margin-left: 15rem;
 }
 .row {
-    margin-top: 5rem;
+  margin-top: 5rem;
 }
 .col-md-3 {
-    margin-right: 17rem;
-    margin-top: 2rem;
+  margin-right: 6rem;
+  margin-left: 6rem;
+  margin-top: 2rem;
+  margin-bottom: 7rem;
 }
 .card-title {
-    font-weight: bold;
+  font-weight: bold;
 }
 .card-header {
-    background-color:  #FF8B8B;
-    color: white !important;
-    text-decoration-color: white;
+  background-color: #ff8b8b;
+  color: white !important;
+  text-decoration-color: white;
 }
 .vector1 {
   position: absolute;
@@ -30,8 +32,8 @@
   top: 260px;
 }
 .vector2 {
-    position: absolute;
-    display: block;
-    right: 0;
-    top: 290px;
-}
+  position: absolute;
+  display: block;
+  right: 0;
+  top: 290px;
+} */

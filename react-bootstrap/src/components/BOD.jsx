@@ -1,5 +1,16 @@
 import React, { Component } from "react";
-import { Jumbotron, Container, Row, Col, Image, Button, Card, CardDeck, Accordion, Collapse } from "react-bootstrap";
+import {
+  Jumbotron,
+  Container,
+  Row,
+  Col,
+  Image,
+  Button,
+  Card,
+  CardDeck,
+  Accordion,
+  Collapse,
+} from "react-bootstrap";
 import "./BOD.css";
 
 export default class BOD extends Component {
@@ -12,13 +23,13 @@ export default class BOD extends Component {
           </h1>
         </div>
         <div className="vector1">
-          <img src="/assets/vector1.png" alt="vector1"/>
+          <img src="/assets/vector1.png" alt="vector1" />
         </div>
         <div className="vector2">
-          <img src="/assets/vector2.png" alt="vector2"/>
+          <img src="/assets/vector2.png" alt="vector2" />
         </div>
-        <div className="containerBOD">
-          <div className="row">
+        <div className="container">
+          <div className="row mr-3">
             <div className="col-md-3">
               <Card style={{ width: "25rem", height: "auto" }}>
                 <Card.Img
