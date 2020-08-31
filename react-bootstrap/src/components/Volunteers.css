@@ -1,0 +1,96 @@
+/* CSS RESET */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+.title {
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 62px;
+}
+.container.grid-xl {
+    max-width: 1296px;
+}
+.mt-full {
+    margin-top: 6.4rem;
+}
+.mt-md-qtr{
+    margin-top: 0;
+}
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -.4rem;
+    margin-right: -.4rem;
+}
+.column.col-3 {
+    flex: none;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+.col-3 {
+    width: 25%;
+}
+.column {
+    flex: 1;
+    max-width: 100%;
+    padding-left: .4rem;
+    padding-right: .4rem;
+}
+.px-1 {
+    padding-left: 0.8rem !important;
+    padding-right: 0.8rem !important;
+}
+img {
+    width: 100%;
+    display: block;
+}
+.pics + .pics {
+    margin-top: 3.2rem;
+}
+.btnlink {
+    font-size: 1.4rem;
+    border-radius: 10rem;
+    border-top-left-radius: 10rem;
+    border-top-right-radius: 10rem;
+    border-bottom-right-radius: 10rem;
+    border-bottom-left-radius: 10rem;
+    height: 5rem;
+    line-height: 5rem;
+    background-color: #FF8B8B;
+    color: white !important;
+    padding: 0 2rem;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    border: none !important;
+    border-top-color: initial !important;
+    border-top-style: none !important;
+    border-top-width: initial !important;
+    border-right-color: initial !important;
+    border-right-style: none !important;
+    border-right-width: initial !important;
+    border-bottom-color: initial !important;
+    border-bottom-style: none !important;
+    border-bottom-width: initial !important;
+    border-left-color: initial !important;
+    border-left-style: none !important;
+    border-left-width: initial !important;
+    border-image-source: initial !important;
+    border-image-slice: initial !important;
+    border-image-width: initial !important;
+    border-image-outset: initial !important;
+    border-image-repeat: initial !important;
+    font-style: bold;
+    font-weight: 500;
+    text-decoration-color: #FF8B8B;
+}
+.centered {
+    text-align: center;
+}
