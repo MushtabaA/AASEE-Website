@@ -4,10 +4,10 @@
     font-size: 55px;
     line-height: 62px;
 }
-.container {
+.containerBOD {
     margin-bottom: 10rem;
     margin-right: 5rem;
-    margin-left: auto;
+    margin-left: 15rem;
 }
 .row {
     margin-top: 5rem;
@@ -23,4 +23,15 @@
     background-color:  #FF8B8B;
     color: white !important;
     text-decoration-color: white;
+}
+.vector1 {
+  position: absolute;
+  display: block;
+  top: 260px;
+}
+.vector2 {
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 290px;
 }

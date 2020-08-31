@@ -11,7 +11,13 @@ export default class BOD extends Component {
             Board of Directors
           </h1>
         </div>
-        <div className="container">
+        <div className="vector1">
+          <img src="/assets/vector1.png" alt="vector1"/>
+        </div>
+        <div className="vector2">
+          <img src="/assets/vector2.png" alt="vector2"/>
+        </div>
+        <div className="containerBOD">
           <div className="row">
             <div className="col-md-3">
               <Card style={{ width: "25rem", height: "auto" }}>
