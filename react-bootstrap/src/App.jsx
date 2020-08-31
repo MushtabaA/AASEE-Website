@@ -12,6 +12,9 @@ import Footer from './components/Footer';
 import News from './components/News';
 import Volunteers from './components/Volunteers';
 import BOD from './components/BOD';
+import Strategies from './components/Strategies';
+import Classroom from './components/Classroom';
+
 
 
 function App() {
@@ -32,6 +35,9 @@ function App() {
         <Route exact path="/news" component={News} />
         <Route exact path="/volunteers" component={Volunteers} />
         <Route exact path="/BOD" component={BOD} />
+        <Route exact path="/Classroom" component={Classroom} />
+        <Route exact path="/Strategies" component={Strategies} />
+
         <Footer/>
     </Router>
     </div>
