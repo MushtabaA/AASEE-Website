@@ -117,7 +117,7 @@ img {
   background-color: #ff8b8b;
 }
 .piccontainer:hover .overlay {
-  opacity: 70%;
+  opacity: 85%;
 }
 br {
   line-height: 2000%;
