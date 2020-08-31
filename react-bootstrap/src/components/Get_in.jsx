@@ -70,8 +70,8 @@ export default class Get_in extends Component {
           <div className="container">
             <div className="row pb-5">
               <div className="col-md-6">
-                <h5>Helping in a Classroom</h5>
-                <p>
+                <h5 class="mb-4 qs">Helping in a Classroom</h5>
+                <p class="lt">
                   If you love working with kids, you could help us in a
                   classroom. AASEE runs various hands-on fun activities in the
                   classroom.
@@ -79,7 +79,7 @@ export default class Get_in extends Component {
               </div>
               <div className="col-md-6">
                 <img
-                  src="/assets/partner_header.png"
+                  src="/assets/vol1.png"
                   alt="Strategic Partner"
                   className="img-fluid mb-3"
                 />
@@ -89,14 +89,14 @@ export default class Get_in extends Component {
             <div className="row mt-5">
               <div className="col-md-6">
                 <img
-                  src="/assets/partner_header.png"
+                  src="/assets/vol2.png"
                   alt="Strategic Partner"
                   className="img-fluid mb-3"
                 />
               </div>
               <div className="col-md-6">
-                <h5>Guest Speaker</h5>
-                <p>
+                <h5 class="mb-4 qs">Guest Speaker</h5>
+                <p class="lt">
                   If you would like to share your expertise which would motivate
                   K-12 students towards science and engineering, AASEE will be
                   happy to host you in a classroom as a guest speaker.
@@ -110,8 +110,10 @@ export default class Get_in extends Component {
           <div className="container">
             <div className="row pb-5">
               <div className="col-md-6">
-                <h5>Showcasing Lab, Industry, Products, etc. </h5>
-                <p>
+                <h5 class="mb-4 qs">
+                  Showcasing Lab, Industry, Products, etc.{" "}
+                </h5>
+                <p class="lt">
                   If you are part of an educational institute, industry, museum,
                   or a similar organization, you can showcase your lab, industry
                   production lines, or anything motivational and interesting.
@@ -120,7 +122,7 @@ export default class Get_in extends Component {
               </div>
               <div className="col-md-6">
                 <img
-                  src="/assets/partner_header.png"
+                  src="/assets/vol3.png"
                   alt="Strategic Partner"
                   className="img-fluid mb-3"
                 />
@@ -130,14 +132,14 @@ export default class Get_in extends Component {
             <div className="row mt-5">
               <div className="col-md-6">
                 <img
-                  src="/assets/partner_header.png"
+                  src="/assets/vol4.png"
                   alt="Strategic Partner"
                   className="img-fluid mb-3"
                 />
               </div>
               <div className="col-md-6">
-                <h5>Conducting Tours</h5>
-                <p>
+                <h5 class="mb-4 qs">Conducting Tours</h5>
+                <p class="lt">
                   AASEE is always looking for volunteers to conduct tours. This
                   may include guiding and managing small group of students and
                   carpooling.
@@ -154,15 +156,15 @@ export default class Get_in extends Component {
           <div className="container">
             <div className="row pb-5">
               <div className="col-md-6">
-                <h5>Fundraising</h5>
-                <p>
+                <h5 class="mb-4 qs">Fundraising</h5>
+                <p class="lt">
                   If you believe in AASEE’s vision and mission, you could help
                   us raise funds.
                 </p>
               </div>
               <div className="col-md-6">
                 <img
-                  src="/assets/partner_header.png"
+                  src="/assets/vol5.png"
                   alt="Strategic Partner"
                   className="img-fluid mb-3"
                 />
@@ -172,14 +174,14 @@ export default class Get_in extends Component {
             <div className="row mt-5">
               <div className="col-md-6">
                 <img
-                  src="/assets/partner_header.png"
+                  src="/assets/vol6.png"
                   alt="Strategic Partner"
                   className="img-fluid mb-3"
                 />
               </div>
               <div className="col-md-6">
-                <h5>Developing programs and activities</h5>
-                <p>
+                <h5 class="mb-4 qs">Developing programs and activities</h5>
+                <p class="lt">
                   You can develop programs and activities for K-12 students.
                   AASEE would love to hear from schoolteachers, particularly
                   math and science teachers at any level.
@@ -193,10 +195,10 @@ export default class Get_in extends Component {
           <div className="container">
             <div className="row">
               <div className="col-md-12 pb-5 mb-1">
-                <h5>Did Not Find Your Preference?</h5>
-                <p>
+                <h5 class="mb-4 qs">Did Not Find Your Preference?</h5>
+                <p class="lt">
                   Yes, there are many other ways you could volunteer at AASEE!
-                  Please conact us.
+                  Please contact us.
                 </p>
               </div>
             </div>
@@ -226,8 +228,8 @@ export default class Get_in extends Component {
             <div className="container">
               <div className="row">
                 <div className="col-md-6">
-                  <h5>Strategic Partner</h5>
-                  <p>
+                  <h5 class="mb-4 qs">Strategic Partner</h5>
+                  <p class="lt">
                     If you believe in AASEE’s vision, mission and strategy, you
                     can join us and contribute to AASEE. There are many ways for
                     your to be part of our work
@@ -235,7 +237,7 @@ export default class Get_in extends Component {
                 </div>
                 <div className="col-md-6">
                   <img
-                    src="/assets/partner_header.png"
+                    src="/assets/p1.png"
                     alt="Strategic Partner"
                     className="img-fluid mb-3"
                   />
@@ -249,14 +251,14 @@ export default class Get_in extends Component {
               <div className="row">
                 <div className="col-md-6">
                   <img
-                    src="/assets/partner_header.png"
+                    src="/assets/p2.png"
                     alt="Strategic Partner"
                     className="img-fluid mb-3"
                   />
                 </div>
                 <div className="col-md-6">
-                  <h5>Program/Project Partner</h5>
-                  <p>
+                  <h5 class="mb-4 qs">Program/Project Partner</h5>
+                  <p class="lt">
                     You can jointly design and implement programs and projects
                     with AASEE.
                   </p>
@@ -272,13 +274,13 @@ export default class Get_in extends Component {
             <div className="container">
               <div className="row">
                 <div className="col-md-12">
-                  <h5>Corporate Partner</h5>
-                  <p>
+                  <h5 class="mb-4 qs">Corporate Partner</h5>
+                  <p class="mb-4 lt">
                     We welcome corporate sponsorships for local and
                     international programs, projects, and/or events.
                   </p>
                   <img
-                    src="/assets/partner_header.png"
+                    src="/assets/p3.png"
                     alt="Strategic Partner"
                     className="img-fluid mb-3"
                   />
@@ -291,7 +293,7 @@ export default class Get_in extends Component {
             <div className="container">
               <div className="row">
                 <div className="col-md-12 pb-5 mb-1">
-                  <h5>
+                  <h5 class="qs">
                     We’ll be happy do discuss further partnership opportunities.
                     Please contact us.
                   </h5>

@@ -71,3 +71,14 @@ body {
 .backg {
   background-color: #ffb8b8;
 }
+
+.qs {
+  font-family: Quicksand;
+  color: #000000;
+  font-weight: bolder;
+}
+
+.lt {
+  font-family: Lato;
+  /* color: #000000; */
+}
