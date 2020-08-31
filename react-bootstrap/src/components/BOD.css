@@ -1,4 +1,4 @@
-/* .title {
+ .title {
   font-family: Quicksand;
   font-weight: bold;
   font-size: 55px;
@@ -9,7 +9,7 @@
   margin-right: 5rem;
   margin-left: 15rem;
 }
-.row {
+.rowss {
   margin-top: 5rem;
 }
 .col-md-3 {
@@ -18,14 +18,14 @@
   margin-top: 2rem;
   margin-bottom: 7rem;
 }
-.card-title {
+.card-title-L {
   font-weight: bold;
 }
 .card-header {
   background-color: #ff8b8b;
   color: white !important;
   text-decoration-color: white;
-} */
+}
 .vector1 {
   position: absolute;
   display: block;
