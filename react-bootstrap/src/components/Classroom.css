@@ -1,0 +1,39 @@
+.Examples{
+    font-size: 72px;
+    font-style: Quicksand;
+    position: relative;
+}
+.sub {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+    width: 50%;
+    height: auto;
+  }
+
+  .subtitle {
+    /* background-color: #ff8282; */
+    /* width: 25%; */
+    /* height: auto; */
+  
+    font-family: Lato;
+    font-style: normal;
+    font-weight: lighter;
+    /* font-size: 48px; */
+  
+    color: #000000;
+  }
+
+  .title {
+    /* background-color: #ff8282; */
+    /* width: 25%; */
+    /* height: auto; */
+  
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bolder;
+    /* font-size: 48px; */
+  
+    color: #000000;
+  }

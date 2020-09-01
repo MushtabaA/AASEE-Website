@@ -14,6 +14,12 @@ export default class Home extends Component {
             <Jumbotron fluid > 
 </Jumbotron>
 <div>
+<div className="vector1">
+          <img src="/assets/vector1.png" alt="vector1" />
+        </div>
+        <div className="vector2">
+          <img src="/assets/vector2.png" alt="vector2" />
+        </div>
             <h1 class="pt-5 text-center container-sm title">The Association for the Advancement of Science and Engineering Education (AASEE) is dedicated to advancing science 
 and engineering education at the K-12 level.</h1>
 <h6 class="pt-3 text-center container-sm subtitle">The Association for the Advancement of Science and Engineering Education (AASEE) seeks to inspire future science and engineering leaders.

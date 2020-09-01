@@ -45,5 +45,14 @@
     width: 25%;
     height: auto;
   }
-  
-  
+  .vector1 {
+    position: absolute;
+    display: block;
+    top: 260px;
+  }
+  .vector2 {
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 300px;
+  }

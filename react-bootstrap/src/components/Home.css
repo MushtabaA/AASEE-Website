@@ -73,3 +73,15 @@ align-self: auto;
 margin-left: auto;
 align-self: auto;
 }
+
+.vector1 {
+  position: absolute;
+  display: block;
+  top: 260px;
+}
+.vector2 {
+  position: absolute;
+  display: block;
+  right: 0;
+  top: 290px;
+}
