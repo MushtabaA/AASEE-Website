@@ -6,7 +6,7 @@ import './Top_Navbar.css'
 export default class Top_Navbar extends Component {
     render() {
         return (
-            <Navbar className="navbar navbar-expand-sm navbar-custom" collapseOnSelect expand="lg" variant="light">
+            <Navbar className="navbar navbar-expand-sm navbar-custom sticky content sticky-element" collapseOnSelect expand="lg" variant="light">
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="mr-auto">

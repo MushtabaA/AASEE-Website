@@ -3,8 +3,8 @@
     text-align: center;
     display: inline-block;
     float: none;
-    padding-left: 30px;
-    padding-right: 30px;
+    margin-left: 30px;
+    margin-right: 70px;
     background-color: #FF8B8B;
 }
 .nav-link{
@@ -47,3 +47,20 @@ color: white;
 .navbar-custom .nav-item:hover .nav-link {
     color: white;
 }
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .sticky + .content {
+    padding-top: 60px;
+  }
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky-element {
+    position: sticky;
+    top: 10; 
+    z-index: 1;
+ }

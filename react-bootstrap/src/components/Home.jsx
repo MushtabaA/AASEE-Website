@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react'
 import { Link } from 'react-router-dom';
 import { Jumbotron, Container, Row, Col, Image, Button, Carousel } from 'react-bootstrap';
-import Slider from './Slider';
+/*import Slider from './Slider';*/
 import './Home.css';
 
 
@@ -40,7 +40,38 @@ The Association for the Advancement of Science and Engineering Education is a re
         <div>
             <h1 class="pt-5 text-center container-sm title">Donors, Partners & Friends</h1>
             <img  src="/assets/Capture 1.jpg" class="rounded mx-auto d-block center" alt="" width="1400"/>
-            <Slider/>
+          
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100 img-fluid" src="/assets/1.png" alt="First slide"></img>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100 img-fluid" src="/assets/2.jpg" alt="Second slide"></img>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100 img-fluid" src="/assets/3.jpg" alt="Third slide"></img>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100 img-fluid" src="/assets/4.png" alt="Fourth slide"></img>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
         </div>
 
 </Fragment>

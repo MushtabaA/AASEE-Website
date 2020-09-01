@@ -6,9 +6,7 @@ export default class Donate extends Component {
     render() {
         return (
             <Fragment>
-                    <Jumbotron fluid class="donate-bg" > 
-</Jumbotron>
-            
+              <img src="/assets/DonateHeader.png" class = "header img-fluid" alt="DonateHeader.png"/>
             <div>
             <h1 class="pt-5 text-center container-sm title">Donate</h1>
             <h2 class="pt-3 text-center container-sm subtitle">Our organization is funding by generous donations from people and organizations. We accept the following methods of donation.</h2>
