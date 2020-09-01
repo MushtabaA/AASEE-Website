@@ -41,3 +41,21 @@
   
     color: #000000;
   }
+  .vector4 {
+    position: absolute;
+    display: block;
+    left: 100px;
+    top: 300px;
+  }
+  .vector5 {
+    position: absolute;
+    display: block;
+    right: 100px;
+    top: 1000px;
+  }
+  .vector6 {
+    position: absolute;
+    display: block;
+    left: 100px;
+    top: 1500px;
+  }
