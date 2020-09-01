@@ -6,6 +6,15 @@ export default class Strategies extends Component {
     render() {
         return (
             <Container>
+                <div className="vector4">
+          <img src="/assets/vector4.png" alt="vector4" />
+        </div>
+        <div className="vector5">
+          <img src="/assets/vector5.png" alt="vector5" />
+        </div>
+        <div className="vector6">
+          <img src="/assets/vector6.png" alt="vector6" />
+        </div>
                 <Row>
             <div class="navbar">
                 <Col>
