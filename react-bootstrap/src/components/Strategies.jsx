@@ -6,6 +6,7 @@ export default class Strategies extends Component {
     render() {
         return (
             <Container>
+            <img src="/assets/Stratheader.png" class = "header img-fluid" alt="Stratheader.png"/>
                 <div className="vector4">
           <img src="/assets/vector4.png" alt="vector4" />
         </div>
