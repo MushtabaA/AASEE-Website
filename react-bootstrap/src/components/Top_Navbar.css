@@ -3,8 +3,8 @@
     text-align: center;
     display: inline-block;
     float: none;
-    padding-left: 30px;
-    padding-right: 30px;
+    margin-left: 30px;
+    margin-right: 70px;
     background-color: #FF8B8B;
 }
 .nav-link{
