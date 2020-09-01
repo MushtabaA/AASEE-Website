@@ -7,6 +7,10 @@ const Footer = () => {
         <div class="main-footer">
             <div class ="container">
                 <div class="row">
+                    {/* Logo Coulmn */}
+               <div class = "col">
+                 <img src="/assets/AASEE Logo.png"></img>
+               </div>
                {/* Coulmn1 */}
                <div class = "col">
                    <h5>OFFICE LOCATION</h5>
