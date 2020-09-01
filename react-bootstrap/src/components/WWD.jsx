@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, Fragment } from "react";
 import { Jumbotron, Container, Row, Col, Image, Button } from 'react-bootstrap';
 import PropTypes from 'prop-types'
 
@@ -6,9 +6,11 @@ import PropTypes from 'prop-types'
 export default class WWD extends Component {
   render() {
     return (
+      
       <div>
           <Jumbotron fluid >  
 </Jumbotron>
+
         <h1 class="pt-5 text-center container-sm title">What We Do:</h1>
         <h2 class="pt-4 text-left container-sm title">Our Mission</h2>
       <p class="pt-3 text-left container-sm subtitle">

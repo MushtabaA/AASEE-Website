@@ -33,7 +33,7 @@ The Association for the Advancement of Science and Engineering Education is a re
         </div>
         <div>
             <h1 class="pt-5 text-center container-sm title">Donors, Partners & Friends</h1>
-            <img  src="/assets/Capture 1.jpg" class="rounded mx-auto d-block center" alt="" width="1500"/>
+            <img  src="/assets/Capture 1.jpg" class="rounded mx-auto d-block center" alt="" width="1400"/>
             <Slider/>
         </div>
 

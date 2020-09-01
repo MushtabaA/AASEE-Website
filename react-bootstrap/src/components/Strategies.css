@@ -1,0 +1,53 @@
+.Icons{
+    size: 10px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    align-content: center;
+}
+.navbar {
+    width: 100%;
+    overflow: auto;
+  }
+  @media screen and (max-width: 500px) {
+    .navbar {
+      float: none;
+      display: block;
+    }
+  }
+  .title {
+    font-weight: bolder;
+    /* width: 295px;
+    height: 63px;
+    left: 582px;
+    top: 915px; */
+  
+    font-family: Quicksand;
+    font-style: normal;
+    /* font-weight: 500; */
+    font-size: 40px;
+    line-height: 62px;
+    /* identical to box height */
+  
+    color: #000000;
+  }
+  .subtitle {
+    /* font-family: Lato;
+    font-style: normal;
+    font-weight: lighter;
+  
+    color: #000000; */
+    /* width: 1030px;
+    height: 54px;
+    left: 205px;
+    top: 978px; */
+  
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 28px;
+    line-height: 54px;
+    /* identical to box height*/
+  
+    color: #000000;
+  }
