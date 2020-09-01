@@ -39,7 +39,7 @@ export default class Contact extends Component {
             </h4>
             <h6 className="text-center  ">Room # ENA 229L</h6>
             <h6 className="text-center   p-2">
-              Schulich School of Engineering
+              Schulich's School of Engineering
             </h6>
             <h6 className="text-center  ">University of Calgary</h6>
 
