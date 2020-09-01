@@ -47,3 +47,20 @@ color: white;
 .navbar-custom .nav-item:hover .nav-link {
     color: white;
 }
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .sticky + .content {
+    padding-top: 60px;
+  }
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky-element {
+    position: sticky;
+    top: 10; 
+    z-index: 1;
+ }
