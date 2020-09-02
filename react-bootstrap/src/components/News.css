@@ -1,58 +1,58 @@
-.lines{
-    border-top: 2px dashed rgb(143, 137, 137);
-     width: 700px; 
-
+.lines {
+  border-top: 2px dashed rgb(143, 137, 137);
+  width: 700px;
 }
 
-  .quick {
+.quick {
   font-family: Quicksand;
   color: #000000;
   font-weight: bolder;
-  font-size: 33;
+  font-size: 33px;
+  width: 100%;
 }
 
 .nobold {
-    font-family: Quicksand;
-    color: #000000;
-    font-size: 27;
+  font-family: Quicksand;
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-
-.lato{
-    font-family: Lato;
-    color: #000000;
-    font-weight: light;
-    font-size: 27px;
+.lato {
+  font-family: Lato;
+  color: #8c8c8c;
+  font-weight: light;
+  font-size: 15px;
 }
 
-.more{
-    font-family: Lato;
-    color: #ff0000;
-    font-weight: 1;
-    font-size: 27px;
-    font-weight: bolder;
+.more {
+  font-family: Lato;
+  color: #ff0000;
+  font-weight: 1;
+  font-size: 15px;
+  font-weight: bolder;
+  text-align-last: center;
 }
-.bold{
+.bold {
   font-family: Quicksand;
   color: #000000;
   font-weight: bolder;
   font-size: 44;
 }
-.sub{
-    font-family: Lato;
-    color: #000000;
-    font-weight: light;
-    font-size: 33px;
+.left {
+  font-family: Lato;
+  color: #000000;
+  font-weight: light;
+  font-size: 33px;
 }
 
 .image {
-    position: relative;
- }
+  position: relative;
+}
 
- .newstext{
-    font-family: Quicksand;
-    color: rgb(255, 255, 255);
-    font-weight: bolder;
-    font-size: 107px;
-
- }
+.newstext {
+  font-family: Quicksand;
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  font-size: 107px;
+}
