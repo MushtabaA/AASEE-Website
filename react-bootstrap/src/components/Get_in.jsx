@@ -29,9 +29,11 @@ export default class Get_in extends Component {
                 />
               </a>
 
-              <h3 class="font-weight-bold text-wrap pt-5 mt-1 text-center container-sm lisub">
-                Volunteer with AASEE
-              </h3>
+              <a style={{ color: "blue" }} href="#Volunteer">
+                <h3 class="font-weight-bold text-wrap pt-5 mt-1 text-center container-sm lisub">
+                  Volunteer with AASEE
+                </h3>
+              </a>
             </div>
 
             <div class="col-md-6 mt-5 pr-5">
@@ -43,9 +45,11 @@ export default class Get_in extends Component {
                 />
               </a>
 
-              <h3 class="font-weight-bold text-wrap pt-4 mt-3 text-center container-sm lisub">
-                Become Our Partner
-              </h3>
+              <a style={{ color: "blue" }} href="#Partner">
+                <h3 class="font-weight-bold text-wrap pt-4 mt-3 text-center container-sm lisub">
+                  Become Our Partner
+                </h3>
+              </a>
             </div>
           </div>
         </div>
@@ -57,7 +61,7 @@ export default class Get_in extends Component {
           <div>
             <img
               src="/assets/volunteer_header.png"
-              class="header"
+              class="header w-75 mx-auto d-block"
               alt="volunteer"
             />
 
@@ -216,11 +220,11 @@ export default class Get_in extends Component {
           <div className="BeOurPartnerHeader">
             <img
               src="/assets/partner_header.png"
-              class="header"
+              class="header  w-75 mx-auto d-block"
               alt="partner"
             />
 
-            <h1 class="pt-5 text-center container-sm title">Be Our Parnter</h1>
+            <h1 class="pt-5 text-center container-sm title">Be Our Partner</h1>
             <h5 class="pt-3 mb-5 text-center container-sm subtitle">
               There are many ways for you to partner with AASEE
             </h5>
@@ -300,7 +304,9 @@ export default class Get_in extends Component {
                 <div className="col-md-12 pb-5 mb-1">
                   <h5 class="qs">
                     We’ll be happy do discuss further partnership opportunities.
-                    Please contact us.
+                    <a style={{ color: "blue" }} href="/contact">
+                      Please contact us.
+                    </a>
                   </h5>
                 </div>
               </div>

@@ -1,8 +1,5 @@
-import React, { Component, Fragment } from "react";
-import { Jumbotron, Container, Row, Col, Image, Button } from 'react-bootstrap';
-import PropTypes from 'prop-types'
-
-
+import React, { Component} from "react";
+import './WWD.css'
 export default class WWD extends Component {
   render() {
     return (
