@@ -24,13 +24,13 @@ export default class Get_in extends Component {
               <a href="#Volunteer">
                 <img
                   src="/assets/volunteer_header.png"
-                  class="pb-3 img-fluid rounded-circle center d-block mx-auto"
+                  class="pb-3 img-fluid rounded-circle center d-block mx-auto clickable"
                   alt="Volunteer with us"
                 />
               </a>
 
-              <a style={{ color: "blue" }} href="#Volunteer">
-                <h3 class="font-weight-bold text-wrap pt-5 mt-1 text-center container-sm lisub">
+              <a style={{ color: "black" }} href="#Volunteer">
+                <h3 class="font-weight-bold text-wrap pt-5 mt-1 text-center container-sm lisub ">
                   Volunteer with AASEE
                 </h3>
               </a>
@@ -40,12 +40,12 @@ export default class Get_in extends Component {
               <a href="#Partner">
                 <img
                   src="/assets/partner_header.png"
-                  class="pb-3 img-fluid rounded-circle center d-block mx-auto"
+                  class="pb-3 img-fluid rounded-circle center d-block mx-auto clickable"
                   alt="Become Our Partner"
                 />
               </a>
 
-              <a style={{ color: "blue" }} href="#Partner">
+              <a style={{ color: "black" }} href="#Partner">
                 <h3 class="font-weight-bold text-wrap pt-4 mt-3 text-center container-sm lisub">
                   Become Our Partner
                 </h3>

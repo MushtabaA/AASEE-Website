@@ -83,4 +83,6 @@ body {
   /* color: #000000; */
 }
 
-
+img.clickable:hover {
+  filter: grayscale(100%);
+}
