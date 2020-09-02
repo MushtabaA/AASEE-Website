@@ -1,9 +1,15 @@
-.Icons{
+.Iconss{
     size: 10px;
     display: inline-block;
     width: 100px;
     height: 100px;
     align-content: center;
+}
+.Icons{
+  padding-top: 1em;
+ width: 50%;
+ padding-bottom: 1em;
+
 }
   .title {
     font-weight: bolder;

@@ -3,3 +3,56 @@
      width: 700px; 
 
 }
+
+  .quick {
+  font-family: Quicksand;
+  color: #000000;
+  font-weight: bolder;
+  font-size: 33;
+}
+
+.nobold {
+    font-family: Quicksand;
+    color: #000000;
+    font-size: 27;
+}
+
+
+.lato{
+    font-family: Lato;
+    color: #000000;
+    font-weight: light;
+    font-size: 27px;
+}
+
+.more{
+    font-family: Lato;
+    color: #ff0000;
+    font-weight: 1;
+    font-size: 27px;
+    font-weight: bolder;
+}
+.bold{
+  font-family: Quicksand;
+  color: #000000;
+  font-weight: bolder;
+  font-size: 44;
+}
+.sub{
+    font-family: Lato;
+    color: #000000;
+    font-weight: light;
+    font-size: 33px;
+}
+
+.image {
+    position: relative;
+ }
+
+ .newstext{
+    font-family: Quicksand;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 107px;
+
+ }
