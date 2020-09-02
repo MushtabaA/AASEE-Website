@@ -91,10 +91,10 @@ export default class News extends Component {
               <h1 class="pt-1 ml-0 text-left container-sm bold">
                 AASEE on the Road
               </h1>
-              <h5 class="pt-0 ml-0 mb-0 text-left container-sm left">
+              <h5 class="pt-0 ml-0 mb-0 text-left container-sm date">
                 FEB 15 2017
               </h5>
-              <h5 class="pt-0 ml-0 text-left container-sm left">
+              <h5 class="pt-0 ml-0 text-left container-sm date">
                 By kevinbrennan
               </h5>
               <p class="pt-0 ml-0 pr-0 mr-0 text-left container-sm left">

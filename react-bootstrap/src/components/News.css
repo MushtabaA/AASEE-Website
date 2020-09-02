@@ -39,6 +39,12 @@
   font-weight: bolder;
   font-size: 44;
 }
+.date{
+  font-family: Lato;
+  color: #8c8c8c;
+  font-weight: light;
+  font-size: 27px;
+}
 .left {
   font-family: Lato;
   color: #000000;
