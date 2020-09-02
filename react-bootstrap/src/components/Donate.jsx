@@ -1,11 +1,10 @@
-import React, { Component, Fragment } from 'react'
-import { Jumbotron, Container, Row, Col, Image, Button, Carousel } from 'react-bootstrap';
-
+import React, { Component} from 'react'
+import './Donate.css'
 
 export default class Donate extends Component {
     render() {
         return (
-            <Fragment>
+            <div>
               <img src="/assets/DonateHeader.png" class = "header img-fluid" alt="DonateHeader.png"/>
             <div>
             <h1 class="pt-5 text-center container-sm title">Donate</h1>
@@ -36,7 +35,7 @@ export default class Donate extends Component {
                </div>
                {/* Coulmn2 */}
                <div class = "col">
-               <div class="Payment">
+               <div class=" ayment">
             <h2 class="pt-3 text-center container-sm subtitle">Canada Helps</h2>
             <a href="https://www.canadahelps.org/en/dn/16867"><img src="/assets/donate_canadahelps.png"class="sub" alt="" width="200"/></a>
             <p class="pt-3 text-center container-sm subtitle">Tax receipt will be issued by Canada Helps.</p>
@@ -56,7 +55,7 @@ export default class Donate extends Component {
                </div>
             </div>
             </div>
- </Fragment>
+ </div>
         )
     }
 }

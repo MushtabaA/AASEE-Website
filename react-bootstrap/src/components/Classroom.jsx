@@ -1,11 +1,10 @@
-import React, { Component, Fragment } from 'react'
-import { Jumbotron, Container, Row, Col, Image, Button } from 'react-bootstrap';
+import React, { Component } from 'react'
 import './Classroom.css'
 
 export default class Classroom extends Component {
     render() {
         return (
-            <Fragment>
+            <div>
             <div>
             <img src="/assets/ClassroomHeader.png" class = "header" alt="ClassroomHeader.png"/>
             <h1 class="pt-5 text-center container-sm title">Classroom Activties </h1>
@@ -64,7 +63,7 @@ export default class Classroom extends Component {
             </div>
 
             
-            </Fragment>
+            </div>
         )
     }
 }
