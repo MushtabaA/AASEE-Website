@@ -57,8 +57,9 @@ opacity: 0.3;
 .vector2 {
 position: absolute;
 display: block;
-right: 0;
-top: 290px;
+margin-top: 800px;
+margin-left: 600px;
+opacity: 0.3;
 }
 .carousel-fade .carousel-item, .carousel-item img  {
 max-height: 80vh;

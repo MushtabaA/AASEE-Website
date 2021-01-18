@@ -112,6 +112,9 @@ export default class Home extends Component {
           <div className="vector1">
             <img src="/assets/vector1.png" alt="vector1" />
           </div>
+          <div className="vector2">
+            <img src="/assets/vector2.png" alt="vector2" />
+          </div>
         </div>
         <div>
           <h1 id="title"class="pt-5 text-center container-sm title">
