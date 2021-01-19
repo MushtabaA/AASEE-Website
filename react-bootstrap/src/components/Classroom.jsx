@@ -51,15 +51,14 @@ export default class Classroom extends Component {
             <h2 class="pt-3 text-center container-sm subtitle">Having Fun With Light</h2>
             <p class="pt-2 text-center container-sm subtitle">Grade 4</p>
             </div>
-            <div class="Examples">
-            <img src="/assets/Elec.jpg" class="sub" alt="" width="200"/>
-            <h2 class="pt-3 text-center container-sm subtitle">Making Electricity</h2>
-            <p class="pt-2 text-center container-sm subtitle">Grade 5</p>
-            </div>
                </div>
                
             </div>
-          
+            <div id="center" class="Examples">
+            <img src="/assets/Elec.jpg" alt="" width="200"/>
+            <h2 class="pt-3 text-center container-sm subtitle">Making Electricity</h2>
+            <p class="pt-2 text-center container-sm subtitle">Grade 5</p>
+            </div>
             </div>
 
             

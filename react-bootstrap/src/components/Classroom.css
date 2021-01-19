@@ -11,6 +11,9 @@
     width: 50%;
     height: auto;
   }
+  #center{
+    text-align: center;
+  }
 
   .subtitle {
     /* background-color: #ff8282; */
@@ -22,7 +25,7 @@
     font-weight: lighter;
     /* font-size: 48px; */
   
-    color: #000000;
+    color:rgba(0, 0, 0, 1)
   }
 
   .title {
@@ -35,5 +38,5 @@
     font-weight: bolder;
     /* font-size: 48px; */
   
-    color: #000000;
+    color: rgba(103, 168, 255, 1);
   }
