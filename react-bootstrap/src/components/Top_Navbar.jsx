@@ -94,7 +94,7 @@ export default class Top_Navbar extends Component {
         <Navbar.Brand href="/" to="/">
           <img
             id="logo-navbar-middle"
-            src="https://aasee.ca/cms/wp-content/themes/AASEE-Theme/images/aasee-white.png"
+            src="/assets/HeaderLogo.png"
             width="300"
             alt=""
           />
