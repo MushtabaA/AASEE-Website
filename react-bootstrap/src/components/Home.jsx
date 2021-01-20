@@ -86,7 +86,7 @@ export default class Home extends Component {
             </a>
           </div>
           <div>
-          <h1 id="title"class="pt-5 text-center container-sm title">
+          <h1 class="pt-5 text-center container-sm title">
             Our Mission
           </h1>
           <h5 id="midtitle" class="pt-5 text-center container-sm midtitle">
@@ -94,7 +94,7 @@ export default class Home extends Component {
             Education (AASEE) is dedicated to advancing science and engineering
             education at the K-12 level.
           </h5>
-          <h6 id="subtitle" class="pt-3 text-center container-sm subtitle">
+          <h6 class="subtitle">
             The Association for the Advancement of Science and Engineering
             Education (AASEE) seeks to inspire future science and engineering
             leaders. AASEE gives priority to diverse populations, namely
@@ -117,7 +117,7 @@ export default class Home extends Component {
           </div>
         </div>
         <div>
-          <h1 id="title"class="pt-5 text-center container-sm title">
+          <h1 class="pt-5 text-center container-sm title">
             Donors, Partners & Friends
           </h1>
           <img
