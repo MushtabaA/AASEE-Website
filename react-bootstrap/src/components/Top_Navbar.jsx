@@ -15,36 +15,15 @@ import { Link } from "react-router-dom";
 import "./Top_Navbar.css";
 
 export default class Top_Navbar extends Component {
-<<<<<<< HEAD
     render() {
         return (
-            <Navbar className="navbar navbar-expand-sm navbar-custom sticky content sticky-element responsive-navbar-nav" collapseOnSelect expand="lg" variant="light">
+            <Navbar className="navbar navbar-expand-sm navbar-custom sticky content sticky-element" collapseOnSelect expand="lg" variant="light">
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="mr-auto">
                 <Nav.Link eventKey={1} componentClass={Link} href="/" to="/">HOME</Nav.Link>
                 <Dropdown as={ButtonGroup}>
                       <Button variant="dropdown-toggle" href="/what_we_do">WHAT WE DO</Button>
-=======
-  render() {
-    return (
-      <Navbar
-        className="navbar navbar-expand-sm navbar-custom sticky content sticky-element"
-        collapseOnSelect
-        expand="lg"
-        variant="light"
-      >
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mr-auto">
-            <Nav.Link eventKey={1} componentClass={Link} href="/" to="/">
-              HOME
-            </Nav.Link>
-            <Dropdown as={ButtonGroup}>
-              <Button variant="dropdown-toggle" href="/what_we_do">
-                WHAT WE DO
-              </Button>
->>>>>>> d91fe6cf6d67ff62264f6ad4de6345678a65ced6
 
               <Dropdown.Toggle
                 split
