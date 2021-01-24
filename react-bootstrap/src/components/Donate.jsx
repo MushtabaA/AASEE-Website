@@ -21,7 +21,7 @@ export default class Donate extends Component {
                                 <a href="/contact"><p class="pt-3 text-center container-sm subtitle"><u>Contact us for tax receipt.</u></p></a>
                             </div>
                             <div class="container-fluid px-2 pb-5 mb-5">
-                                <h2 id="title" class="pt-3 text-center container-sm subtitle pb-5">By Cheque</h2>
+                                <h2 id="title" class="pt-3 text-center container-sm subtitle pb-2">By Cheque</h2>
                                 <a href="/contact"><img src="/assets/Cheque.png" class="sub" alt="" width="200" /></a>
                                 <a href="/contact"><p class="pt-3 text-center container-sm subtitle"><u>Contact us for tax receipt.</u></p></a>
 
@@ -42,14 +42,14 @@ export default class Donate extends Component {
 
                             </div>
                             <div class="container-fluid px-2 pb-5 mb-5">
-                                <h2 id="title" class="pt-5 text-center container-sm subtitle">Aeroplan Miles</h2>
+                                <h2 id="title" class="pt-12 text-center container-sm subtitle">Aeroplan Miles</h2>
                                 <a href="https://beyondmiles.aeroplan.com/eng#/"><img src="/assets/donate_aeroplan.png" class="sub" alt="" width="200" /></a>
                                 <p class="pt-5 text-center container-sm subtitle ">Donate your miles.</p>
 
                             </div>
                             <div class="container-fluid px-2 pb-5 mb-5">
-                                <h2 id="title" class="pt-5 text-center container-sm subtitle">Amazon.ca</h2>
-                                <img src="/assets/donate_amazon.png" class="sub" alt="" width="200" />
+                                <h2 id="title" class="pt-5 text-center container-sm subtitle pb-lg-5">Amazon.ca</h2>
+                                <img  src="/assets/donate_amazon.png" class="sub pb-lg-5" alt="" width="200" />
                                 <p class="pt-5 text-center container-sm subtitle">Buy textbooks from AASEE's bookstore</p>
                             </div>
                         </div>
