@@ -147,15 +147,10 @@ br {
     height: auto;
 }
 
-.vector1 {
-    position: absolute;
-    display: block;
-    top: 260px;
-}
-
-.vector2 {
-    position: absolute;
-    display: block;
-    right: 0;
-    top: 290px;
+.bg {
+  background-image: url("/assets/Alternating-Arrowhead.svg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
