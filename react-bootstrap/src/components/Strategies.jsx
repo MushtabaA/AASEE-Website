@@ -14,7 +14,7 @@ export default class Strategies extends Component {
 
           <section
             id="strategic-partner-section"
-            className="backg text-muted py-5"
+            className="backstrats text-muted py-5"
           >
             <div className="container">
               <div className="row">
@@ -79,7 +79,7 @@ export default class Strategies extends Component {
           </section>
           <section
             id="strategic-partner-section"
-            className="backg text-muted py-5"
+            className="backstrats text-muted py-5"
           >
             <div className="container">
               <div className="row">
