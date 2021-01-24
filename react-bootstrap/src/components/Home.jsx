@@ -5,7 +5,7 @@ import "./Home.css";
 export default class Home extends Component {
   render() {
     return (
-      <div>
+      <div class="bg">
         <div>
           <div
             id="carouselExampleIndicators"
@@ -110,12 +110,12 @@ export default class Home extends Component {
               charity in Canada.
           </h6>
           </div>
-          <div className="vector1">
+          {/* <div className="vector1">
             <img src="/assets/vector1.png" alt="vector1" />
           </div>
           <div className="vector2">
             <img src="/assets/vector2.png" alt="vector2" />
-          </div>
+          </div> */}
         </div>
         <div class="mb-5">
           <h1 class="pt-5 text-center container-sm title">
