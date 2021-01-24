@@ -1,42 +1,50 @@
  .title {
-  font-family: Quicksand;
-  font-weight: bold;
-  font-size: 55px;
-  line-height: 62px;
-}
-.containerBOD {
-  margin-bottom: 10rem;
-  margin-right: 5rem;
-  margin-left: 15rem;
-}
-.rowss {
-  margin-top: 5rem;
-}
-.col-md-3-L {
-  margin-right: 6rem;
-  margin-left: 6rem;
-  margin-top: 2rem;
-  margin-bottom: 7rem;
-}
-.card-title-L {
-  font-weight: bold;
-}
-.card-header {
-  background-color: rgba(152, 194, 249, 1);
-  color: white !important;
-  text-decoration-color: white;
-}
-.img-L {
-  width: 100%;
-  display: block;
-  height: auto;
-}
-.bg {
-  background-image: url("/assets/Alternating-Arrowhead.svg");
-  height: 10%;
-  background-position: center;
-  background-size: 15%;
-  /* background-repeat: no-repeat; */
-  /* background-size: cover; */
-}
+   font-family: Quicksand;
+   font-weight: bold;
+   font-size: 55px;
+   line-height: 62px;
+ }
 
+ .containerBOD {
+   margin-bottom: 10rem;
+   margin-right: 5rem;
+   margin-left: 15rem;
+ }
+
+ .rowss {
+   margin-top: 5rem;
+ }
+
+ .col-md-3-L {
+   margin-right: 6rem;
+   margin-left: 6rem;
+   margin-top: 2rem;
+   margin-bottom: 7rem;
+ }
+
+ .card-title-L {
+   font-weight: bold;
+ }
+
+ .card-header {
+   background-color: rgba(152, 194, 249, 1);
+   color: white !important;
+   text-decoration-color: white;
+ }
+
+ .img-L {
+   width: 100%;
+   display: block;
+   height: auto;
+ }
+
+ .bg {
+   /* background-image: url("/assets/Alternating-Arrowhead.svg"); */
+   background-color: #ffffff;
+   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23DCEFFA' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+   height: 10%;
+   background-position: center;
+   background-size: 15%;
+   /* background-repeat: no-repeat; */
+   /* background-size: cover; */
+ }
