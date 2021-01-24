@@ -58,6 +58,7 @@ img {
     margin-top: 3.2rem;
 }
 */
+
 .btnlink {
     font-size: 1.4rem;
     border-radius: 10rem;
@@ -67,7 +68,7 @@ img {
     border-bottom-left-radius: 10rem;
     height: 5rem;
     line-height: 5rem;
-    background-color: #FF8B8B;
+    background-color: rgba(152, 194, 249, 1);
     color: white !important;
     padding: 0 2rem;
     padding-top: 50px;
@@ -94,60 +95,67 @@ img {
     border-image-repeat: initial !important;
     font-style: bold;
     font-weight: 500;
-    text-decoration-color: #FF8B8B;
+    text-decoration-color: rgba(152, 194, 249, 1);
 }
 
 .centered {
-   text-align: center;
+    text-align: center;
 }
+
 .piccontainer {
     position: relative;
     width: 100%;
 }
+
 .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: 0.5s ease;
-  background-color: #ff8b8b;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: rgba(152, 194, 249, 1);
 }
+
 .piccontainer:hover .overlay {
-  opacity: 85%;
+    opacity: 85%;
 }
+
 br {
-  line-height: 2000%;
+    line-height: 2000%;
 }
+
 .text {
-  color: white;
-  font-size: 17px;
-  font-weight: bold;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .img-L {
-  width: 100%;
-  display: block;
-  height: auto;
+    width: 100%;
+    display: block;
+    height: auto;
 }
+
 .vector1 {
     position: absolute;
     display: block;
     top: 260px;
-  }
+}
+
 .vector2 {
     position: absolute;
     display: block;
     right: 0;
     top: 290px;
-  }
+}

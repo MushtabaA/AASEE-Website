@@ -82,3 +82,7 @@ body {
   font-family: Lato;
   /* color: #000000; */
 }
+
+img.clickable:hover {
+  filter: grayscale(100%);
+}

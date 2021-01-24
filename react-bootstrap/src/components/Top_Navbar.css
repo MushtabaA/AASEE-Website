@@ -5,33 +5,33 @@
     float: none;
     margin-left: 30px;
     margin-right: 70px;
-    background-color: #FF8B8B;
+    background-color: rgba(152, 194, 249, 1);
 }
 .nav-link{
     margin-right: 4rem;
     display: inline-block;
     font-weight: bold;
-    background-color: #FF8B8B;
+    background-color: rgba(152, 194, 249, 1);
 
 }
 .dropdown{
     margin-right: 50px;
 }
 .btn-dropdown-toggle {
-    background-color:  #FF8B8B;
+    background-color:  rgba(152, 194, 249, 1);
     color: white;
     font-weight: bold;
   }
 .dropdown-menu{
-    background-color: #FF8B8B;
+    background-color: rgba(152, 194, 249, 1);
 }
 .dropdown-item{
-    background-color: #FF8B8B;
+    background-color: rgba(152, 194, 249, 1);
     color: white;
     font-weight: bold;
 }
 .navbar-custom {
-    background-color: #FF8B8B;
+    background-color: rgba(152, 194, 249, 1);
 }
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
