@@ -151,6 +151,7 @@ br {
     background-image: url("/assets/Alternating-Arrowhead.svg");
     height: 10%;
     background-position: center;
+    background-size: 15%;
     /* background-repeat: no-repeat; */
     /* background-size: cover; */
 }
