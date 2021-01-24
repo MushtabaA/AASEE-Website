@@ -77,6 +77,7 @@ export default class Strategies extends Component {
               </div>
             </div>
           </section>
+
           <section
             id="strategic-partner-section"
             className="backstrats text-muted py-5"
@@ -103,16 +104,72 @@ export default class Strategies extends Component {
             </div>
           </section>
 
-          <section id="partner-end-section" className="text-muted py-5">
+          <section id="program-partner-section" className="text-muted py-5">
             <div className="container">
               <div className="row">
-                <div className="col-md-12 pb-5 mb-1">
-                  <h5 class="qs">
-                    We’ll be happy do discuss further partnership opportunities.
-                    <a style={{ color: "blue" }} href="/contact">
-                      Please contact us.
-                    </a>
+                <div className="col-md-6">
+                  <img
+                    src="/assets/p2.png"
+                    alt="Strategic Partner"
+                    className="img-fluid mb-3"
+                  />
+                </div>
+                <div className="col-md-6">
+                  <h5 class="mb-4 qs">Some of the Student Programs</h5>
+                  <p class="lato pt-0 pb-0 mb-0 mt-0">- Hands-on activities</p>
+                  <p class="lato pt-0 pb-0 mb-0 mt-0">
+                    - Motivational talks by experts from academia and industry
+                  </p>
+                  <p class="lato pt-0 pb-0 mb-0 mt-0">
+                    - Innovative group projects
+                  </p>
+                  <p class="lato pt-0 pb-0 mb-0 mt-0">- Group research</p>
+                  <p class="lato pt-0 pb-0 mb-0 mt-0">
+                    - Tours to universities, research labs, museums, industry,
+                    etc.
+                  </p>
+                  <p class="lato pt-0 pb-0 mb-0 mt-0">- Science fairs</p>
+                  <p class="lato pt-0 pb-0 mb-0 mt-0">- Summer schools</p>
+                  <h5 class="mb-4 pt-4 qs">
+                    Some of the Science Teacher Programs
                   </h5>
+                  <p class="lato pt-0 pb-0 mb-0 mt-0">
+                    - Workshops and training
+                  </p>
+                  <p class="lato pt-0 pb-0 mb-0 mt-0">
+                    - Hands-on activities for teachers
+                  </p>
+                  <p class="lato pt-0 pb-0 mb-0 mt-0">- Providing resources</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section
+            id="strategic-partner-section"
+            className="backstrats text-muted py-5"
+          >
+            <div className="container">
+              <div className="row">
+                <div className="col-md-6">
+                  <h5 class="mb-4 qs">Evaluation</h5>
+                  <p class="lato">
+                    -Evaluating the success of all activities and programs over
+                    a shorter or longer period
+                  </p>
+                  <h5 class="mb-4 pt-4 qs">Recognition</h5>
+                  <p class="lato">
+                    Recognizing outstanding performance by students and teachers
+                    in multiple ways, including medals, awards, prizes,
+                    scholarships, etc.
+                  </p>
+                </div>
+                <div className="col-md-6">
+                  <img
+                    src="/assets/p1.png"
+                    alt="Strategic Partner"
+                    className="img-fluid mb-3"
+                  />
                 </div>
               </div>
             </div>
