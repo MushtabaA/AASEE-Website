@@ -48,8 +48,8 @@ export default class Donate extends Component {
 
                             </div>
                             <div class="container-fluid px-2 pb-5 mb-5">
-                                <h2 id="title" class="pt-5 text-center container-sm subtitle">Amazon.ca</h2>
-                                <img src="/assets/donate_amazon.png" class="sub" alt="" width="200" />
+                                <h2 id="title" class="pt-5 text-center container-sm subtitle pb-lg-5">Amazon.ca</h2>
+                                <img  src="/assets/donate_amazon.png" class="sub pb-lg-5" alt="" width="200" />
                                 <p class="pt-5 text-center container-sm subtitle">Buy textbooks from AASEE's bookstore</p>
                             </div>
                         </div>
