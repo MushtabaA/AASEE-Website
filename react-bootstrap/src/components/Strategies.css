@@ -1,67 +1,71 @@
-.Iconss{
-    size: 10px;
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    align-content: center;
+/* .Iconss {
+  size: 10px;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  align-content: center;
 }
-.Icons{
+.Icons {
   padding-top: 1em;
- width: 50%;
- padding-bottom: 1em;
-
+  width: 50%;
+  padding-bottom: 1em;
 }
-  .title {
-    font-weight: bolder;
-    /* width: 295px;
-    height: 63px;
-    left: 582px;
-    top: 915px; */
-  
-    font-family: Quicksand;
-    font-style: normal;
-    /* font-weight: 500; */
-    font-size: 40px;
-    line-height: 62px;
-    /* identical to box height */
-  
-    color: #000000;
-  }
-  .subtitle {
-    /* font-family: Lato;
-    font-style: normal;
-    font-weight: lighter;
-  
-    color: #000000; */
-    /* width: 1030px;
-    height: 54px;
-    left: 205px;
-    top: 978px; */
-  
-    font-family: Lato;
-    font-style: normal;
-    font-weight: 200;
-    font-size: 28px;
-    line-height: 54px;
-    /* identical to box height*/
-  
-    color: #000000;
-  }
-  .vector4 {
-    position: absolute;
-    display: block;
-    left: 100px;
-    top: 600px;
-  }
-  .vector5 {
-    position: absolute;
-    display: block;
-    right: 100px;
-    top: 1000px;
-  }
-  .vector6 {
-    position: absolute;
-    display: block;
-    left: 100px;
-    top: 1500px;
-  }
+.title {
+  font-weight: bolder;
+  width: 295px;
+  height: 63px;
+  left: 582px;
+  top: 915px;
+
+  font-family: Quicksand;
+  font-style: normal;
+  /* font-weight: 500; */
+/* font-size: 40px;
+  line-height: 62px; */
+/* identical to box height */
+/* 
+  color: #000000;
+} */
+/* .subtitle {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: lighter;
+
+  color: #000000;
+  width: 1030px;
+  height: 54px;
+  left: 205px;
+  top: 978px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 28px;
+  line-height: 54px; */
+/* identical to box height*/
+/* 
+  color: #000000;
+}
+.vector4 {
+  position: absolute;
+  display: block;
+  left: 100px;
+  top: 600px;
+}
+.vector5 {
+  position: absolute;
+  display: block;
+  right: 100px;
+  top: 1000px;
+}
+.vector6 {
+  position: absolute;
+  display: block;
+  left: 100px;
+  top: 1500px;
+} */
+
+.lato {
+  font-family: Lato;
+  color: #000000;
+}
