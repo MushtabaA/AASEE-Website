@@ -26,19 +26,17 @@
   color: white !important;
   text-decoration-color: white;
 }
-.vector1 {
-  position: absolute;
-  display: block;
-  top: 260px;
-}
-.vector2 {
-  position: absolute;
-  display: block;
-  right: 0;
-  top: 290px;
-}
 .img-L {
   width: 100%;
   display: block;
   height: auto;
 }
+.bg {
+  background-image: url("/assets/Alternating-Arrowhead.svg");
+  height: 10%;
+  background-position: center;
+  background-size: 15%;
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+}
+

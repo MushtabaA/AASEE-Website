@@ -17,16 +17,11 @@ export default class BOD extends Component {
   render() {
     return (
       <div>
+        <div class="bg">
         <div className="headTitle">
           <h1 class="pt-5 pb-5 text-center container-sm title">
             Board of Directors
           </h1>
-        </div>
-        <div className="vector1">
-          <img src="/assets/vector1.png" alt="vector1" />
-        </div>
-        <div className="vector2">
-          <img src="/assets/vector2.png" alt="vector2" />
         </div>
         <div className="container">
           <div className="row mr-3">
@@ -217,6 +212,7 @@ export default class BOD extends Component {
               </Card>
             </div>
           </div>
+        </div>
         </div>
       </div>
     );
