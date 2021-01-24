@@ -11,7 +11,6 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-
   width: 25%;
   height: auto;
 }
@@ -22,14 +21,12 @@ body {
   height: 63px;
   left: 582px;
   top: 915px; */
-
   font-family: Quicksand;
   font-style: normal;
   /* font-weight: 500; */
   font-size: 40px;
   line-height: 62px;
   /* identical to box height */
-
   color: #000000;
 }
 
@@ -43,20 +40,19 @@ body {
   height: 54px;
   left: 205px;
   top: 978px; */
-
   font-family: Lato;
   font-style: normal;
   font-weight: 200;
   font-size: 28px;
   line-height: 54px;
   /* identical to box height*/
-
   color: #000000;
 }
 
 .lisub {
   font-family: Quicksand;
 }
+
 /* 
 #explore-section, #share-section{
   .fa{
@@ -84,5 +80,8 @@ body {
 }
 
 img.clickable:hover {
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
+  z-index: 1;
+  background-color: rgba(152, 194, 249, 1);
+  opacity: 0.7;
 }
