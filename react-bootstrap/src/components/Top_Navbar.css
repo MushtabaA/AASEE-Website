@@ -1,3 +1,5 @@
+/*
+
 .navbar-brand {
     width: 100%;
     text-align: center;
@@ -33,34 +35,46 @@
 .navbar-custom {
     background-color: rgba(152, 194, 249, 1);
 }
-/* change the brand and text color */
+
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
 color: white;
 }
-/* change the link color */
+
 .navbar-custom .navbar-nav .nav-link {
     color: white;
 }
-/* change the color of active or hovered links */
+
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
     color: white;
+}  */
+
+.color-nav {
+    background-color: rgba(152, 194, 249, 1);
 }
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
+
+.nav-link:hover{
+    display: inline-block;
+    font-weight: bold;
+    color: black !important;
+    background-color: rgba(152, 194, 249, 1);
+
+}
+ .nav-link {
+     color: white !important;
+     font-weight: bold;
   }
-  .sticky + .content {
-    padding-top: 60px;
+.dropdown-item{
+    background-color: rgba(152, 194, 249, 1);
+    color: white;
+    font-weight: bold;
+}
+.btn-dropdown-toggle {
+    background-color:  rgba(152, 194, 249, 1);
+    color: white;
+    font-weight: bold;
   }
-  .content {
-    padding: 16px;
-  }
-  
-  .sticky-element {
-    position: sticky;
-    top: 10; 
-    z-index: 1;
- }
+  .dropdown-menu{
+    background-color: rgba(152, 194, 249, 1);
+}
