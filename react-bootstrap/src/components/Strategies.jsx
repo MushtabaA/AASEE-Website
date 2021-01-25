@@ -147,7 +147,7 @@ export default class Strategies extends Component {
 
           <section
             id="strategic-partner-section"
-            className="backstrats text-muted py-5"
+            className="backstrats mb-5 text-muted py-5"
           >
             <div className="container">
               <div className="row">
