@@ -60,6 +60,7 @@ body {
 .carousel-caption{
   font-size:x-large;
   color: rgba(103, 168, 255, 1);
+  font-family: Lato;
 }
 #midtitle_home{
   color: black;
