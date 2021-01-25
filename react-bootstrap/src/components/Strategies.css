@@ -73,3 +73,18 @@
 .backstrats {
   background-color: rgba(226, 226, 226, 0.3);
 }
+
+.titlestrat {
+  font-weight: bolder;
+  /* width: 295px;
+  height: 63px;
+  left: 582px;
+  top: 915px; */
+  font-family: Quicksand;
+  font-style: normal;
+  /* font-weight: 500; */
+  font-size: 40px;
+  line-height: 62px;
+  /* identical to box height */
+  color: #000000;
+}

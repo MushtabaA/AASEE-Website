@@ -9,7 +9,7 @@ export default class Strategies extends Component {
         <div className="mt-2 pt-2 mb-2 pb-2"></div>
         <div className="beOurPartner" id="Partner">
           <div className="BeOurPartnerHeader">
-            <h1 class="text-center container-sm title">Strategies</h1>
+            <h1 class="text-center container-sm titlestrat">Strategies</h1>
           </div>
 
           <section
