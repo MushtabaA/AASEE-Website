@@ -52,6 +52,7 @@ color: white;
 
 .color-nav {
     background-color: rgba(152, 194, 249, 1);
+    opacity: 80%;
 }
 
 .nav-link:hover{
