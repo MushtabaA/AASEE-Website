@@ -20,5 +20,19 @@
     height: auto;
   }
 #subtitle{
-  color: rgb(38, 21, 185);
+  color: rgb(15, 143, 228);
+}
+.whatWeDoImage1{
+  width: 450px;
+  height: 250px;
+  margin-left: 500px;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+
+}
+.whatWeDoImage2{
+  width: 450px;
+  height: 250px;
+  margin-left: 500px;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+
 }
