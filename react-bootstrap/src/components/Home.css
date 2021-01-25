@@ -57,3 +57,17 @@ body {
   /* background-image: url("/assets/Alternating-Arrowhead.svg"); */
   background-color: #ffffff;
 }
+.carousel-caption{
+  font-size:x-large;
+  color: rgb(255, 251, 0);
+}
+#midtitle_home{
+  color: black;
+  font-size: 28px;
+  text-align: center;
+}
+#subtitle_home{
+  color: rgb(38, 21, 185);
+  font-size: 20px;
+  text-align: left;
+}

@@ -11,7 +11,7 @@ export default class Home extends Component {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="/assets/1.jpg"
+                src="/assets/2.jpg"
                 alt="First slide"
               />
               <Carousel.Caption>
@@ -25,7 +25,7 @@ export default class Home extends Component {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="/assets/2.jpg"
+                src="/assets/1.jpg"
                 alt="Second slide"
               />
             </Carousel.Item>
@@ -48,14 +48,13 @@ export default class Home extends Component {
             <h1 class="pt-5 text-center container-sm title">Our Mission</h1>
 
             <h5
-              id="midtitle"
-              class="pt-5 text-center container-sm midtitle mb-5"
-            >
+              id="midtitle_home"
+              class="pt-5 container-sm midtitle mb-5">
               The Association for the Advancement of Science and Engineering
               Education (AASEE) is dedicated to advancing science and
               engineering education at the K-12 level.
             </h5>
-            <h6 class="subtitle px-5 mx-5 mt-5">
+            <h6 id="subtitle_home" class="subtitle px-5 mx-5 mt-5">
               The Association for the Advancement of Science and Engineering
               Education (AASEE) seeks to inspire future science and engineering
               leaders. AASEE gives priority to diverse populations, namely
