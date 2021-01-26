@@ -304,6 +304,7 @@ export default class Get_in extends Component {
                 <div className="col-md-12 pb-5 mb-1">
                   <h5 class="qs">
                     We’ll be happy do discuss further partnership opportunities.
+                    <br/>
                     <a style={{ color: "blue" }} href="/contact">
                       Please contact us.
                     </a>
