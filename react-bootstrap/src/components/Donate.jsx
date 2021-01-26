@@ -5,7 +5,9 @@ export default class Donate extends Component {
     render() {
         return (
             <div>
+                <div className="d-flex justify-content-center">
                 <img src="/assets/DonateHeader.jpg" class="header img-fluid" alt="DonateHeader.png" />
+                </div>
                 <div>
                     <h1 class="pt-5 text-center container-sm title">Donate</h1>
                     <h2 class="pt-3 text-center container-sm subtitle">Our organization is funding by generous donations from people and organizations. We accept the following methods of donation.</h2>
@@ -49,7 +51,7 @@ export default class Donate extends Component {
                             </div>
                             <div class="container-fluid px-2 pb-5 mb-5">
                                 <h2 id="title" class="pt-5 text-center container-sm subtitle pb-lg-5">Amazon.ca</h2>
-                                <img  src="/assets/donate_amazon.png" class="sub pb-lg-5" alt="" width="200" />
+                                <img src="/assets/donate_amazon.png" class="sub pb-lg-5" alt="" width="200" />
                                 <p class="pt-5 text-center container-sm subtitle">Buy textbooks from AASEE's bookstore</p>
                             </div>
                         </div>
