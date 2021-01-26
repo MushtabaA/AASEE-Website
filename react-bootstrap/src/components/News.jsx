@@ -8,11 +8,13 @@ export default class News extends Component {
       <div>
         {/* <h1 class="pt-5 text-center container-sm title">News</h1> */}
         <div class="image">
+        <div className="d-flex justify-content-center">
           <img
             src="/assets/news_header.png"
             class="header img-fluid"
             alt="news_header.png"
           />
+          </div>
           <div class="text">
             <h3 class="newstext">News</h3>
           </div>

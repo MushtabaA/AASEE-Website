@@ -64,10 +64,12 @@ body {
   background-color: #ffffff;
 }
 .carousel-caption{
-  font-size:x-large;
-  color: red;
+  font-size:large;
+  color: rgb(37, 92, 209);
   font-family: Lato;
-  
+  text-align: center;
+  top: 200px;
+  position: absolute;
 }
 
 #subtitle_home{

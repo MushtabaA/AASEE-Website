@@ -9,7 +9,9 @@ export default class WWD extends Component {
             id="whatwedo-section"
             className="backstyle"
           >
+        <div className="d-flex justify-content-center">
        <img src="/assets/WhatWeHeader.png" class = "header img-fluid" alt="WhatWeHeader.png"/>
+       </div>
         <h1 class="title">What We Do</h1>
         <h2 id ="subtitle" class="subtitle">Our Mission</h2>   
       <p class="sub">
