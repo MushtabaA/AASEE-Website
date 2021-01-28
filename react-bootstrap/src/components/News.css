@@ -3,6 +3,11 @@
   width: 700px;
 }
 
+.lines2 {
+  border-top: 2px dashed rgb(143, 137, 137);
+  width: 300px;
+}
+
 .quick {
   font-family: Quicksand;
   color: #000000;
@@ -31,7 +36,8 @@
   font-weight: 1;
   font-size: 15px;
   font-weight: bolder;
-  text-align-last: center;
+  /* text-align-last: center; */
+  /* text-align: center; */
 }
 .bold {
   font-family: Quicksand;
@@ -61,4 +67,10 @@
   color: rgb(255, 255, 255);
   font-weight: bolder;
   font-size: 107px;
+}
+
+.lato2 {
+  font-family: Lato;
+  color: #000000;
+  font-size: medium;
 }
