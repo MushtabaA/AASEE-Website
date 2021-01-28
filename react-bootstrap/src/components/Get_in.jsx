@@ -8,12 +8,13 @@ export default class Get_in extends Component {
       <div>
         {/* Get Involved Header Section */}
         <div className="head">
-          <img
-            src="/assets/get_involved_header.png"
-            class="header"
-            alt="get involved"
-          />
-
+          <div className="d-flex justify-content-center">
+            <img
+              src="/assets/get_involved_header.png"
+              class="header"
+              alt="get involved"
+            />
+          </div>
           <h1 class="pt-5 text-center container-sm title">Get Involved</h1>
           <h5 class="pt-3 mb-5 text-center container-sm subtitle">
             There are many ways to get involved with the AASEE
@@ -304,7 +305,7 @@ export default class Get_in extends Component {
                 <div className="col-md-12 pb-5 mb-1">
                   <h5 class="qs">
                     We’ll be happy do discuss further partnership opportunities.
-                    <br/>
+                    <br />
                     <a style={{ color: "blue" }} href="/contact">
                       Please contact us.
                     </a>

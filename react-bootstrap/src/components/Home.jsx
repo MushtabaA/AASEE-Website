@@ -7,13 +7,16 @@ export default class Home extends Component {
     return (
       <div class="bg_home">
         <div>
+        <div className="d-flex justify-content-center">
           <Carousel>
             <Carousel.Item> 
+            <div className="d-flex justify-content-center">
               <img
                 className="carouselImage"
                 src="/assets/5.jpg"
                 alt="First slide"
               />
+              </div>
               <Carousel.Caption>
                 <h3>AASEE</h3>
                 <p>
@@ -51,6 +54,7 @@ export default class Home extends Component {
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
+          </div>
           <section
             id="home-section"
             className="backstyle"
