@@ -1,3 +1,4 @@
+// ABHAYT CONVERT ALL 20 PAGES TO REACT AND GET PROPER DIRECTORIES
 import React, { Component } from "react";
 import { Jumbotron, Container, Col, Row } from "react-bootstrap";
 import "./About.css";
