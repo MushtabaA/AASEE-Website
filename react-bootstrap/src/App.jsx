@@ -1,19 +1,19 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Home from './components/Home';
-import WWD from './components/WWD';
-import Get_in from './components/Get_in';
-import About from './components/About';
-import Contact from './components/Contact';
-import Donate from './components/Donate';
-import Navbar from './components/Top_Navbar';
-import Footer from './components/Footer';
-import News from './components/News';
-import Volunteers from './components/Volunteers';
-import BOD from './components/BOD';
-import Strategies from './components/Strategies';
-import Classroom from './components/Classroom';
+import Home from './pages/Home';
+import WWD from './pages/WWD';
+import Get_in from './pages/Get_in';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Donate from './pages/Donate';
+import Navbar from './pages/Top_Navbar';
+import Footer from './pages/Footer';
+import News from './pages/News';
+import Volunteers from './pages/Volunteers';
+import BOD from './pages/BOD';
+import Strategies from './pages/Strategies';
+import Classroom from './pages/Classroom';
 
 
 
