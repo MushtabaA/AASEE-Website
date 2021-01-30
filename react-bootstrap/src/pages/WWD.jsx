@@ -21,7 +21,7 @@ In most of the universities and colleges in Canada this number is less than 20 p
       </p>
        
       </section>
-      <img src="/assets/1.jpg" class="whatWeDoImage1">
+      <img src="/assets/1.jpg" class="whatWeDoImage1" alt="what we do">
         </img>
       <h2 id = "subtitle" class="subtitle">Our Values</h2>
         <p class="sub">
@@ -33,7 +33,7 @@ We believe advancing science and engineering education is the right way to go, a
             id="whatwedo-section"
             className="backstyle"
           >
-        <img src="/assets/4.jpg" class="whatWeDoImage2">
+        <img src="/assets/4.jpg" class="whatWeDoImage2" alt="what we do">
         </img>
         </section>
       </div>

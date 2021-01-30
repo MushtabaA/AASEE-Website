@@ -16,6 +16,7 @@ export default class ContactMap extends Component {
                         style={{ border: 0 }}
                         width="100%"
                         height="100%"
+                        title="unique"
                         allowFullScreen
                     />
                 </div>

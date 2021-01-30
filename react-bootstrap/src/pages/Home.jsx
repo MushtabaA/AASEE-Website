@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Jumbotron, Container, Carousel } from "react-bootstrap";
+import { Carousel } from "react-bootstrap";
 import "./Home.css";
 
 export default class Home extends Component {
