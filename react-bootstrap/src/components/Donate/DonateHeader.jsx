@@ -6,7 +6,7 @@ export default class DonateHeader extends Component {
         return (
             <div>
                 <div className="d-flex justify-content-center">
-                <img src="/assets/DonateHeader.jpg" class="header img-fluid" alt="DonateHeader.png" />
+                <img src="/assets/DonateHeader.jpg" class="header img-fluid" alt="DonateHeader.jpg" />
                 </div>
                 <div>
                     <h1 class="pt-5 text-center container-sm title">Donate</h1>
