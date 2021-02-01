@@ -1,9 +1,10 @@
-  .title {
+  .titleWWD {
     font-family: Quicksand;
     font-style: normal;
     font-weight: bolder;  
     color: rgba(103, 168, 255, 1);
     text-align: center;
+    padding-top: 2em;
   }
   .subtitle {
     font-family: Lato;
@@ -12,12 +13,15 @@
     text-align: center;
   }
   
-  .sub {
+  .subWWD {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 25%;
+  
+    width: 50%;
     height: auto;
+    text-align: center;
+    padding-bottom: 6em;
   }
 #subtitle{
   color: rgb(15, 143, 228);
