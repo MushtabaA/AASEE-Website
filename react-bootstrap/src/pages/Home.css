@@ -40,6 +40,18 @@ body {
   margin-left: auto;
   align-self: auto;
 }
+.vector1 {
+  position: absolute;
+  margin-top: 100px;
+  opacity: 0.3;
+  }
+  .vector2 {
+  position: absolute;
+  display: block;
+  height: 250px;
+  margin-left: auto;
+  opacity: 0.3;
+  }
 
 .carousel-fade .carousel-item, .carousel-item img {
   max-height: 80vh;

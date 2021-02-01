@@ -5,6 +5,7 @@ export default class HomeDonors extends Component {
     render() {
         return (
             <div class="mb-5">
+                
             <h1 class="pt-5 text-center container-sm title">
                 Donors, Partners & Friends
             </h1>

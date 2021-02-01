@@ -4,13 +4,13 @@ import React, { Component } from "react";
 export default class HomeMission extends Component {
     render() {
         return (
-            <section
-                id="home-section"
-                className="backstyle"
-            >
+            <div>
+          <div className="vector2">
+            <img src="/assets/vector2.png" alt="vector2" />
+          </div>
                 <div class="container-fluid px-2 pb-5 mb-5">
                     <h1 class="pt-5 text-center container-sm title">Our Mission</h1>
-
+                
                     <p id="subtitle_home" class="pb-lg-5 px-5 mx-5 mt-5">
                         The Association for the Advancement of Science and Engineering
                         Education (AASEE) is dedicated to advancing science and
@@ -28,9 +28,9 @@ export default class HomeMission extends Component {
                         Association for the Advancement of Science and Engineering
                         Education is a registered charity in Canada.
             </p>
+            </div>
                 </div>
-            </section>
-
+                
         );
     }
 }
