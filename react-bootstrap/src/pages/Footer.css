@@ -17,3 +17,9 @@ a{
 .img-fluid{
     background-color:rgba(242, 242, 242, 1);
 }
+li {
+    margin-bottom: 15px;
+  }
+  li.pointer {
+    cursor: pointer;
+  }
