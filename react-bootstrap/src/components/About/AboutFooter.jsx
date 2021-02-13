@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 // import "./About.css";
 
-export default class AboutHeader extends Component {
+export default class AboutFooter extends Component {
   render() {
     return (
           <div className="container">

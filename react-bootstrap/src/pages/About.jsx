@@ -16,7 +16,6 @@ export default class About extends Component {
 
         <AboutFooter />
 
-        
       </div>
     );
   }
