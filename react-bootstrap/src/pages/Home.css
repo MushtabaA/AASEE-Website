@@ -11,7 +11,6 @@ body {
   color: rgba(103, 168, 255, 1);
 }
 
-
 .midtitle {
   font-family: 'Times New Roman', Times, serif;
   font-style: normal;
@@ -40,43 +39,49 @@ body {
   margin-left: auto;
   align-self: auto;
 }
+
 .vector1 {
   position: absolute;
   margin-top: 380px;
   opacity: 0.3;
-  }
-  .vector2 {
+}
+
+.vector2 {
   position: absolute;
   display: block;
   height: 250px;
   margin-left: auto;
   opacity: 0.3;
-  }
+}
 
 .carousel-fade .carousel-item, .carousel-item img {
   max-height: 80vh;
   max-width: 1100px;
 }
+
 @media (max-width: 900px) {
   .carousel {
-    width:auto;
-    height:auto;
+    width: auto;
+    height: auto;
   }
 }
-.carouselImage{
+
+.carouselImage {
   width: 75%;
   height: 640px;
   margin-left: 225px;
   margin-right: auto;
-  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Black background with opacity */
 }
 
 .bg_home {
   /* background-image: url("/assets/Alternating-Arrowhead.svg"); */
   background-color: #ffffff;
 }
-.carousel-caption{
-  font-size:large;
+
+.carousel-caption {
+  font-size: large;
   color: rgb(37, 92, 209);
   font-family: Lato;
   text-align: center;
@@ -84,12 +89,23 @@ body {
   position: absolute;
 }
 
-#subtitle_home{
+#subtitle_home {
   color: black;
   font-size: 20px;
   text-align: center;
   line-height: normal;
 }
+
 .backstyle {
   background-color: rgba(165, 161, 161, 0.3);
+}
+
+.homeMissionVector1 {
+  position: absolute;
+  left: 1000px;
+}
+
+.homeMissionVector2 {
+  position: absolute;
+  left: -800px;
 }
